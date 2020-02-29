@@ -1,20 +1,14 @@
 ﻿  Using 'git status' to determine working set for adaptive non-unity build (C:\Source\Udemy\Unreal\Section4\BuildingEscape).
-  Creating makefile for BuildingEscapeEditor (no existing makefile)
+  Creating makefile for BuildingEscapeEditor (ini files are newer than makefile)
   Parsing headers for BuildingEscapeEditor
     Running UnrealHeaderTool "C:\Source\Udemy\Unreal\Section4\BuildingEscape\BuildingEscape\BuildingEscape.uproject" "C:\Source\Udemy\Unreal\Section4\BuildingEscape\BuildingEscape\Intermediate\Build\Win64\BuildingEscapeEditor\Development\BuildingEscapeEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
-  Reflection code generated for BuildingEscapeEditor in 4.0326016 seconds
+  Reflection code generated for BuildingEscapeEditor in 4.0704938 seconds
   Using Visual Studio 2019 14.24.28314 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.24.28314) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
-  Building 9 actions with 8 processes...
-    [1/9] Default.rc2
-    [2/9] SharedPCH.Engine.cpp
-    [3/9] BuildingEscape.cpp
-    [4/9] BuildingEscape.init.gen.cpp
-    [5/9] BuildingEscapeGameModeBase.cpp
-    [6/9] BuildingEscapeGameModeBase.gen.cpp
-    [7/9] UE4Editor-BuildingEscape-0001.lib
-       Creating library C:\Source\Udemy\Unreal\Section4\BuildingEscape\BuildingEscape\Intermediate\Build\Win64\UE4Editor\Development\BuildingEscape\UE4Editor-BuildingEscape-0001.lib and object C:\Source\Udemy\Unreal\Section4\BuildingEscape\BuildingEscape\Intermediate\Build\Win64\UE4Editor\Development\BuildingEscape\UE4Editor-BuildingEscape-0001.exp
-    [8/9] UE4Editor-BuildingEscape-0001.dll
-       Creating library C:\Source\Udemy\Unreal\Section4\BuildingEscape\BuildingEscape\Intermediate\Build\Win64\UE4Editor\Development\BuildingEscape\UE4Editor-BuildingEscape-0001.suppressed.lib and object C:\Source\Udemy\Unreal\Section4\BuildingEscape\BuildingEscape\Intermediate\Build\Win64\UE4Editor\Development\BuildingEscape\UE4Editor-BuildingEscape-0001.suppressed.exp
-    [9/9] BuildingEscapeEditor.target
-  Total time in Parallel executor: 11.73 seconds
-  Total execution time: 16.86 seconds
+  Building 3 actions with 8 processes...
+    [1/3] UE4Editor-BuildingEscape-0012.lib
+       Creating library C:\Source\Udemy\Unreal\Section4\BuildingEscape\BuildingEscape\Intermediate\Build\Win64\UE4Editor\Development\BuildingEscape\UE4Editor-BuildingEscape-0012.lib and object C:\Source\Udemy\Unreal\Section4\BuildingEscape\BuildingEscape\Intermediate\Build\Win64\UE4Editor\Development\BuildingEscape\UE4Editor-BuildingEscape-0012.exp
+    [2/3] UE4Editor-BuildingEscape-0012.dll
+       Creating library C:\Source\Udemy\Unreal\Section4\BuildingEscape\BuildingEscape\Intermediate\Build\Win64\UE4Editor\Development\BuildingEscape\UE4Editor-BuildingEscape-0012.suppressed.lib and object C:\Source\Udemy\Unreal\Section4\BuildingEscape\BuildingEscape\Intermediate\Build\Win64\UE4Editor\Development\BuildingEscape\UE4Editor-BuildingEscape-0012.suppressed.exp
+    [3/3] BuildingEscapeEditor.target
+  Total time in Parallel executor: 0.50 seconds
+  Total execution time: 5.74 seconds
