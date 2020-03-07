@@ -364,7 +364,9 @@
     <NMakeOutput>..\..\Binaries\HTML5\BuildingEscape-HTML5-Shipping.js</NMakeOutput>
   </PropertyGroup>
   <ItemGroup>
+    <ClCompile Include="..\..\Source\BuildingEscape\OpenDoor.cpp" />
     <ClCompile Include="..\..\Source\BuildingEscape\WorldPosition.cpp" />
+    <ClInclude Include="..\..\Source\BuildingEscape\OpenDoor.h" />
     <ClInclude Include="..\..\Source\BuildingEscape\WorldPosition.h" />
     <None Include="..\..\BuildingEscape.uproject" />
     <None Include="..\..\Source\BuildingEscape.Target.cs" />
