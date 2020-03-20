@@ -20,11 +20,9 @@ void UOpenDoor::BeginPlay()
 {
 	Super::BeginPlay();
 
-
-	// FRotator CurrentRotation = GetOwner()->GetActorRotation();
-	FRotator OpenDoor{0.f, 90.f, 0.f};
-
-	GetOwner()->SetActorRotation(OpenDoor);
+	InitialYaw = GetOwner()->GetActorRotation().Yaw;
+	CurrentYaw = InitialYaw;
+	TargetYaw += InitialYaw;
 }
 
 
@@ -33,6 +31,19 @@ void UOpenDoor::TickComponent(float DeltaTime, ELevelTick TickType, FActorCompon
 {
 	Super::TickComponent(DeltaTime, TickType, ThisTickFunction);
 
-	// ...
+	if (PressurePlate->IsOverlappingActor(ActorThatOpens))
+	{
+		OpenDoor(DeltaTime);
+	}
 }
 
+void UOpenDoor::OpenDoor(float DeltaTime)
+{
+	// UE_LOG(LogTemp, Warning, TEXT("%s"), *GetOwner()->GetActorRotation().ToString()); // Need pointer for string
+	// UE_LOG(LogTemp, Warning, TEXT("Yaw is: %f"), GetOwner()->GetActorRotation().Yaw);
+
+	CurrentYaw = FMath::Lerp(CurrentYaw, TargetYaw, DeltaTime * 1.f);
+	FRotator DoorRotation = GetOwner()->GetActorRotation();
+	DoorRotation.Yaw = CurrentYaw;
+	GetOwner()->SetActorRotation(DoorRotation);
+}

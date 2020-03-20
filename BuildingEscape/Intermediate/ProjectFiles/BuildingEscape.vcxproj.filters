@@ -41,6 +41,7 @@
     <ClInclude Include="..\..\Source\BuildingEscape\BuildingEscapeGameModeBase.h">
       <Filter>Source\BuildingEscape</Filter>
     </ClInclude>
+    <None Include="cpp.hint" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\..\Source\BuildingEscape\WorldPosition.h">
