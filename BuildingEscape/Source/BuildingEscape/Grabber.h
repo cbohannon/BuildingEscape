@@ -12,6 +12,9 @@ class BUILDINGESCAPE_API UGrabber : public UActorComponent
 {
 	GENERATED_BODY()
 
+private:
+	float Reach{ 100.f };
+
 public:	
 	// Sets default values for this component's properties
 	UGrabber();

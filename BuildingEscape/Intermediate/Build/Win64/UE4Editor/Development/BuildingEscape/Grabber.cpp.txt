@@ -1,3 +1,4 @@
 C:\Source\Udemy\Unreal\Section4\BuildingEscape\BuildingEscape\Intermediate\Build\Win64\UE4Editor\Development\BuildingEscape\Definitions.BuildingEscape.h
 C:\Source\Udemy\Unreal\Section4\BuildingEscape\BuildingEscape\Source\BuildingEscape\Grabber.h
 C:\Source\Udemy\Unreal\Section4\BuildingEscape\BuildingEscape\Intermediate\Build\Win64\UE4Editor\Inc\BuildingEscape\Grabber.generated.h
+C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\Engine\Public\DrawDebugHelpers.h
