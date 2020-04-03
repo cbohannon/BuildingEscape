@@ -19,6 +19,7 @@ private:
 	UInputComponent* InputComponent{ nullptr };
 
 	void Grab();
+	void Release();
 
 public:	
 	// Sets default values for this component's properties
