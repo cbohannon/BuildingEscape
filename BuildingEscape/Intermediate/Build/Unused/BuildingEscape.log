@@ -1,12 +1,1 @@
-﻿  Using 'git status' to determine working set for adaptive non-unity build (C:\Source\Udemy\Unreal\Section4\BuildingEscape).
-  Creating makefile for BuildingEscapeEditor (ini files are newer than makefile)
-  Parsing headers for BuildingEscapeEditor
-    Running UnrealHeaderTool "C:\Source\Udemy\Unreal\Section4\BuildingEscape\BuildingEscape\BuildingEscape.uproject" "C:\Source\Udemy\Unreal\Section4\BuildingEscape\BuildingEscape\Intermediate\Build\Win64\BuildingEscapeEditor\Development\BuildingEscapeEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
-  Reflection code generated for BuildingEscapeEditor in 4.0466964 seconds
-  Using Visual Studio 2019 14.24.28314 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.24.28314) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
-  Building 6 actions with 8 processes...
-    [1/6] OpenDoor.cpp
-C:\Source\Udemy\Unreal\Section4\BuildingEscape\BuildingEscape\Source\BuildingEscape\OpenDoor.cpp(27): error C4101: 'PressurePlate': unreferenced local variable
-    [2/6] BuildingEscape.init.gen.cpp
-    [3/6] OpenDoor.gen.cpp
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\MSBuild\Microsoft\VC\v160\Microsoft.MakeFile.Targets(44,5): error MSB3075: The command ""C:\Program Files\Epic Games\UE_4.22\Engine\Build\BatchFiles\Build.bat" BuildingEscapeEditor Win64 Development -Project="C:\Source\Udemy\Unreal\Section4\BuildingEscape\BuildingEscape\BuildingEscape.uproject" -WaitMutex -FromMsBuild" exited with code 5. Please verify that you have sufficient rights to run this command.
+﻿  Cleaning BuildingEscapeEditor and UnrealHeaderTool binaries...
