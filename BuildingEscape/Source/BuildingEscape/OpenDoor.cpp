@@ -1,9 +1,9 @@
 // Chris Bohannon 2020
 
-#include "Engine/World.h"
-#include "GameFrameWork/PlayerController.h"
 #include "OpenDoor.h"
+#include "Engine/World.h"
 #include "GameFramework/Actor.h"
+#include "GameFrameWork/PlayerController.h"
 
 // Sets default values for this component's properties
 UOpenDoor::UOpenDoor()
