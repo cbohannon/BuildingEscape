@@ -5,8 +5,8 @@
 #include "CoreMinimal.h"
 #include "Components/ActorComponent.h"
 #include "PhysicsEngine/PhysicsHandleComponent.h"
+#include <tuple> 
 #include "Grabber.generated.h"
-
 
 UCLASS( ClassGroup=(Custom), meta=(BlueprintSpawnableComponent) )
 class BUILDINGESCAPE_API UGrabber : public UActorComponent
@@ -34,4 +34,5 @@ private:
 	void SetupInputComponent();
 	
 	FHitResult GetFirstPhysicsBodyInReach() const;
+	std::tuple<FVector, FVector> PrepPlayerViewpoint() const;
 };

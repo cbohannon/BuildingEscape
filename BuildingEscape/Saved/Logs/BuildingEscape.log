@@ -1651,3 +1651,846 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2020.04.04-20.55.27:859][848]LogPlayLevel: Display: Destroying online subsystem :Context_11
 [2020.04.04-20.55.44:301][ 53]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cylinder)
 [2020.04.04-20.56.00:337][972]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.04.04-23.25.57:221][400]Candidate modules for hot reload:
+[2020.04.04-23.25.57:221][400]  BuildingEscape
+[2020.04.04-23.25.57:221][400]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.22/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=BuildingEscape,3255 Win64 Development -TargetType=Editor -Project="C:/Source/Udemy/Unreal/Section4/BuildingEscape/BuildingEscape/BuildingEscape.uproject" "C:/Source/Udemy/Unreal/Section4/BuildingEscape/BuildingEscape/BuildingEscape.uproject"  -IgnoreJunk]
+[2020.04.04-23.25.57:223][400]Warning: Starting HotReload took  0.0s.
+[2020.04.04-23.25.59:758][703]CompilerResultsLog: New page: Compilation - Apr 4, 2020, 1:25:59 PM
+[2020.04.04-23.25.59:758][703]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Source\Udemy\Unreal\Section4\BuildingEscape).
+[2020.04.04-23.25.59:758][703]CompilerResultsLog: Creating makefile for BuildingEscapeEditor (ini files are newer than makefile)
+[2020.04.04-23.25.59:758][703]CompilerResultsLog: Parsing headers for BuildingEscapeEditor
+[2020.04.04-23.25.59:758][703]CompilerResultsLog:   Running UnrealHeaderTool "C:\Source\Udemy\Unreal\Section4\BuildingEscape\BuildingEscape\BuildingEscape.uproject" "C:\Source\Udemy\Unreal\Section4\BuildingEscape\BuildingEscape\Intermediate\Build\Win64\BuildingEscapeEditor\Development\BuildingEscapeEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2020.04.04-23.25.59:758][703]CompilerResultsLog: Error: C:/Source/Udemy/Unreal/Section4/BuildingEscape/BuildingEscape/Source/BuildingEscape/Grabber.h(9) : Error: #include found after .generated.h file - the .generated.h file should always be the last #include in a header
+[2020.04.04-23.25.59:759][703]LogMainFrame: MainFrame: Module compiling took 2.540 seconds
+[2020.04.04-23.25.59:759][703]Warning: HotReload failed, recompile failed
+[2020.04.04-23.26.29:107][ 66]Candidate modules for hot reload:
+[2020.04.04-23.26.29:107][ 66]  BuildingEscape
+[2020.04.04-23.26.29:107][ 66]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.22/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=BuildingEscape,3477 Win64 Development -TargetType=Editor -Project="C:/Source/Udemy/Unreal/Section4/BuildingEscape/BuildingEscape/BuildingEscape.uproject" "C:/Source/Udemy/Unreal/Section4/BuildingEscape/BuildingEscape/BuildingEscape.uproject"  -IgnoreJunk]
+[2020.04.04-23.26.29:110][ 66]Warning: Starting HotReload took  0.0s.
+[2020.04.04-23.26.35:846][859]CompilerResultsLog: New page: Compilation - Apr 4, 2020, 1:26:35 PM
+[2020.04.04-23.26.35:847][859]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Source\Udemy\Unreal\Section4\BuildingEscape).
+[2020.04.04-23.26.35:847][859]CompilerResultsLog: Creating makefile for BuildingEscapeEditor (ini files are newer than makefile)
+[2020.04.04-23.26.35:847][859]CompilerResultsLog: Parsing headers for BuildingEscapeEditor
+[2020.04.04-23.26.35:847][859]CompilerResultsLog:   Running UnrealHeaderTool "C:\Source\Udemy\Unreal\Section4\BuildingEscape\BuildingEscape\BuildingEscape.uproject" "C:\Source\Udemy\Unreal\Section4\BuildingEscape\BuildingEscape\Intermediate\Build\Win64\BuildingEscapeEditor\Development\BuildingEscapeEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2020.04.04-23.26.35:847][859]CompilerResultsLog: Reflection code generated for BuildingEscapeEditor in 4.2595733 seconds
+[2020.04.04-23.26.35:847][859]CompilerResultsLog: Using Visual Studio 2019 14.24.28314 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.24.28314) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2020.04.04-23.26.35:847][859]CompilerResultsLog: Building 5 actions with 8 processes...
+[2020.04.04-23.26.35:848][859]CompilerResultsLog:   [1/5] Grabber.gen.cpp
+[2020.04.04-23.26.35:848][859]CompilerResultsLog:   [2/5] Grabber.cpp
+[2020.04.04-23.26.35:848][859]CompilerResultsLog:   [3/5] UE4Editor-BuildingEscape-3477.lib
+[2020.04.04-23.26.35:848][859]CompilerResultsLog:      Creating library C:\Source\Udemy\Unreal\Section4\BuildingEscape\BuildingEscape\Intermediate\Build\Win64\UE4Editor\Development\BuildingEscape\UE4Editor-BuildingEscape-3477.lib and object C:\Source\Udemy\Unreal\Section4\BuildingEscape\BuildingEscape\Intermediate\Build\Win64\UE4Editor\Development\BuildingEscape\UE4Editor-BuildingEscape-3477.exp
+[2020.04.04-23.26.35:848][859]CompilerResultsLog:   [4/5] UE4Editor-BuildingEscape-3477.dll
+[2020.04.04-23.26.35:848][859]CompilerResultsLog:      Creating library C:\Source\Udemy\Unreal\Section4\BuildingEscape\BuildingEscape\Intermediate\Build\Win64\UE4Editor\Development\BuildingEscape\UE4Editor-BuildingEscape-3477.suppressed.lib and object C:\Source\Udemy\Unreal\Section4\BuildingEscape\BuildingEscape\Intermediate\Build\Win64\UE4Editor\Development\BuildingEscape\UE4Editor-BuildingEscape-3477.suppressed.exp
+[2020.04.04-23.26.35:848][859]CompilerResultsLog:   [5/5] BuildingEscapeEditor.target
+[2020.04.04-23.26.35:848][859]CompilerResultsLog: Total time in Parallel executor: 1.07 seconds
+[2020.04.04-23.26.35:848][859]CompilerResultsLog: Total execution time: 6.65 seconds
+[2020.04.04-23.26.35:849][859]LogMainFrame: MainFrame: Module compiling took 6.743 seconds
+[2020.04.04-23.26.35:876][859]LogUObjectHash: Compacting FUObjectHashTables data took   0.79ms
+[2020.04.04-23.26.35:876][859]LogBlueprintActionDatabase: Requesting refresh due to module change: BuildingEscape (unloaded)
+[2020.04.04-23.26.36:570][859]LogBlueprintActionDatabase: Requesting refresh due to module change: BuildingEscape (loaded)
+[2020.04.04-23.26.36:571][859]LogContentBrowser: Native class hierarchy updated for 'BuildingEscape' in 0.0003 seconds. Added 4 classes and 2 folders.
+[2020.04.04-23.26.36:574][859]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2020.04.04-23.26.36:624][859]LogUObjectHash: Compacting FUObjectHashTables data took   1.24ms
+[2020.04.04-23.26.36:624][859]LogBlueprintActionDatabase: Requesting refresh due to hot reload
+[2020.04.04-23.26.36:635][859]LogContentBrowser: Native class hierarchy populated in 0.0062 seconds. Added 2737 classes and 663 folders.
+[2020.04.04-23.26.36:635][859]Display: HotReload took  7.5s.
+[2020.04.04-23.26.39:425][171]LogSlate: Window 'Message Log' being destroyed
+[2020.04.04-23.26.39:429][171]LogSlate: Window 'Message Log' being destroyed
+[2020.04.04-23.26.40:560][307]LogTemp: Repeating last play command: Selected Viewport
+[2020.04.04-23.26.40:571][307]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Levels/Building_Escape.Building_Escape:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Levels/Building_Escape.Building_Escape:PersistentLevel.Building_Escape' with GeneratedClass '/Game/StarterContent/Maps/Levels/Building_Escape.Building_Escape_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Levels/Building_Escape.Building_Escape:PersistentLevel.Building_Escape'
+[2020.04.04-23.26.40:572][307]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.04.04-23.26.40:572][307]PIE: New page: PIE session: Building_Escape (Apr 4, 2020, 1:26:40 PM)
+[2020.04.04-23.26.40:572][307]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/Levels/UEDPIE_0_Building_Escape
+[2020.04.04-23.26.40:579][307]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006526s)
+[2020.04.04-23.26.40:579][307]LogAIModule: Creating AISystem for world Building_Escape
+[2020.04.04-23.26.40:579][307]LogPlayLevel: PIE: World Init took: (0.000604s)
+[2020.04.04-23.26.40:579][307]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Levels/Building_Escape.Building_Escape to /Game/StarterContent/Maps/Levels/UEDPIE_0_Building_Escape.Building_Escape (0.007458s)
+[2020.04.04-23.26.40:632][307]LogUObjectHash: Compacting FUObjectHashTables data took   2.73ms
+[2020.04.04-23.26.40:647][307]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2020.04.04-23.26.40:655][307]LogInit: FAudioDevice initialized.
+[2020.04.04-23.26.40:680][307]LogLoad: Game class is 'MyBuildingEscapeGameModeBase_BP_C'
+[2020.04.04-23.26.40:682][307]LogWorld: Bringing World /Game/StarterContent/Maps/Levels/UEDPIE_0_Building_Escape.Building_Escape up for play (max tick rate 0) at 2020.04.04-18.26.40
+[2020.04.04-23.26.40:682][307]LogWorld: Bringing up level for play took: 0.000980
+[2020.04.04-23.26.40:694][307]LogTemp: Warning: BP_Sky_Sphere_C_2 position in world is: X=0.000 Y=0.000 Z=0.000
+[2020.04.04-23.26.40:695][307]PIE: Play in editor start time for /Game/StarterContent/Maps/Levels/UEDPIE_0_Building_Escape -0.261
+[2020.04.04-23.26.40:695][307]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Levels/Building_Escape.Building_Escape:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Levels/Building_Escape.Building_Escape:PersistentLevel.Building_Escape' with GeneratedClass '/Game/StarterContent/Maps/Levels/Building_Escape.Building_Escape_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Levels/Building_Escape.Building_Escape:PersistentLevel.Building_Escape'
+[2020.04.04-23.26.42:186][484]LogTemp: Warning: Grabber pressed
+[2020.04.04-23.26.42:294][497]LogTemp: Warning: Grabber released
+[2020.04.04-23.26.42:795][557]LogTemp: Warning: Grabber pressed
+[2020.04.04-23.26.42:921][572]LogTemp: Warning: Grabber released
+[2020.04.04-23.26.45:077][831]LogTemp: Warning: Grabber pressed
+[2020.04.04-23.26.45:078][831]LogTemp: Warning: Line trace has hit: Cylinder_2
+[2020.04.04-23.26.46:719][ 28]LogTemp: Warning: Grabber released
+[2020.04.04-23.26.53:686][864]LogTemp: Warning: Grabber pressed
+[2020.04.04-23.26.53:686][864]LogTemp: Warning: Line trace has hit: Cone_5
+[2020.04.04-23.26.55:261][ 53]LogTemp: Warning: Grabber released
+[2020.04.04-23.26.58:559][445]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2020.04.04-23.26.59:602][570]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Levels/Building_Escape.Building_Escape:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Levels/Building_Escape.Building_Escape:PersistentLevel.Building_Escape' with GeneratedClass '/Game/StarterContent/Maps/Levels/Building_Escape.Building_Escape_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Levels/Building_Escape.Building_Escape:PersistentLevel.Building_Escape'
+[2020.04.04-23.26.59:603][570]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.04.04-23.26.59:628][570]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.04.04-23.26.59:628][570]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Levels/Building_Escape.Building_Escape:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Levels/Building_Escape.Building_Escape:PersistentLevel.Building_Escape' with GeneratedClass '/Game/StarterContent/Maps/Levels/Building_Escape.Building_Escape_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Levels/Building_Escape.Building_Escape:PersistentLevel.Building_Escape'
+[2020.04.04-23.26.59:655][570]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.04.04-23.26.59:659][570]LogUObjectHash: Compacting FUObjectHashTables data took   2.42ms
+[2020.04.04-23.26.59:706][575]LogPlayLevel: Display: Destroying online subsystem :Context_12
+[2020.04.04-23.30.25:888][775]Candidate modules for hot reload:
+[2020.04.04-23.30.25:888][775]  BuildingEscape
+[2020.04.04-23.30.25:888][775]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.22/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=BuildingEscape,1889 Win64 Development -TargetType=Editor -Project="C:/Source/Udemy/Unreal/Section4/BuildingEscape/BuildingEscape/BuildingEscape.uproject" "C:/Source/Udemy/Unreal/Section4/BuildingEscape/BuildingEscape/BuildingEscape.uproject"  -IgnoreJunk]
+[2020.04.04-23.30.25:890][775]Warning: Starting HotReload took  0.0s.
+[2020.04.04-23.30.44:402][992]CompilerResultsLog: New page: Compilation - Apr 4, 2020, 1:30:44 PM
+[2020.04.04-23.30.44:402][992]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Source\Udemy\Unreal\Section4\BuildingEscape).
+[2020.04.04-23.30.44:402][992]CompilerResultsLog: Creating makefile for BuildingEscapeEditor (no existing makefile)
+[2020.04.04-23.30.44:402][992]CompilerResultsLog: Parsing headers for BuildingEscapeEditor
+[2020.04.04-23.30.44:402][992]CompilerResultsLog:   Running UnrealHeaderTool "C:\Source\Udemy\Unreal\Section4\BuildingEscape\BuildingEscape\BuildingEscape.uproject" "C:\Source\Udemy\Unreal\Section4\BuildingEscape\BuildingEscape\Intermediate\Build\Win64\BuildingEscapeEditor\Development\BuildingEscapeEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2020.04.04-23.30.44:403][992]CompilerResultsLog: Reflection code generated for BuildingEscapeEditor in 4.2172397 seconds
+[2020.04.04-23.30.44:403][992]CompilerResultsLog: Using Visual Studio 2019 14.24.28314 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.24.28314) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2020.04.04-23.30.44:403][992]CompilerResultsLog: Building 15 actions with 8 processes...
+[2020.04.04-23.30.44:403][992]CompilerResultsLog:   [1/15] Default.rc2
+[2020.04.04-23.30.44:403][992]CompilerResultsLog:   [2/15] SharedPCH.Engine.cpp
+[2020.04.04-23.30.44:403][992]CompilerResultsLog:   [3/15] BuildingEscape.init.gen.cpp
+[2020.04.04-23.30.44:403][992]CompilerResultsLog:   [4/15] WorldPosition.cpp
+[2020.04.04-23.30.44:403][992]CompilerResultsLog:   [5/15] Grabber.cpp
+[2020.04.04-23.30.44:403][992]CompilerResultsLog:    C:\Source\Udemy\Unreal\Section4\BuildingEscape\BuildingEscape\Source\BuildingEscape\Grabber.cpp(82) : error C2678: binary '=': no operator found which takes a left-hand operand of type 'const std::tuple<FVector,FVector>' (or there is no acceptable conversion)
+[2020.04.04-23.30.44:404][992]CompilerResultsLog:   C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.24.28314\INCLUDE\tuple(558): note: could be 'std::tuple<FVector,FVector> &std::tuple<FVector,FVector>::operator =(volatile const std::tuple<FVector,FVector> &)'
+[2020.04.04-23.30.44:404][992]CompilerResultsLog:   C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.24.28314\INCLUDE\tuple(575): note: or       'std::tuple<FVector,FVector> &std::tuple<FVector,FVector>::operator =<std::tuple<FVector,FVector>,FVector,0>(std::tuple<FVector,FVector> &&) noexcept'
+[2020.04.04-23.30.44:404][992]CompilerResultsLog:   C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.24.28314\INCLUDE\tuple(564): note: or       'std::tuple<FVector,FVector> &std::tuple<FVector,FVector>::operator =<std::tuple<FVector,FVector>,FVector,0>(const std::tuple<FVector,FVector> &) noexcept(<expr>)'
+[2020.04.04-23.30.44:404][992]CompilerResultsLog:   C:\Source\Udemy\Unreal\Section4\BuildingEscape\BuildingEscape\Source\BuildingEscape\Grabber.cpp(82): note: while trying to match the argument list '(const std::tuple<FVector,FVector>, std::tuple<FVector,FVector>)'
+[2020.04.04-23.30.44:405][992]CompilerResultsLog:   [6/15] OpenDoor.cpp
+[2020.04.04-23.30.44:405][992]CompilerResultsLog:   [7/15] BuildingEscapeGameModeBase.cpp
+[2020.04.04-23.30.44:405][992]CompilerResultsLog:   [8/15] OpenDoor.gen.cpp
+[2020.04.04-23.30.44:405][992]CompilerResultsLog:   [9/15] BuildingEscapeGameModeBase.gen.cpp
+[2020.04.04-23.30.44:405][992]CompilerResultsLog:   [10/15] Grabber.gen.cpp
+[2020.04.04-23.30.44:405][992]CompilerResultsLog:   [11/15] BuildingEscape.cpp
+[2020.04.04-23.30.44:405][992]CompilerResultsLog:   [12/15] WorldPosition.gen.cpp
+[2020.04.04-23.30.44:405][992]LogMainFrame: MainFrame: Module compiling took 18.520 seconds
+[2020.04.04-23.30.44:405][992]Warning: HotReload failed, recompile failed
+[2020.04.04-23.31.34:066][195]Candidate modules for hot reload:
+[2020.04.04-23.31.34:066][195]  BuildingEscape
+[2020.04.04-23.31.34:067][195]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.22/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=BuildingEscape,8266 Win64 Development -TargetType=Editor -Project="C:/Source/Udemy/Unreal/Section4/BuildingEscape/BuildingEscape/BuildingEscape.uproject" "C:/Source/Udemy/Unreal/Section4/BuildingEscape/BuildingEscape/BuildingEscape.uproject"  -IgnoreJunk]
+[2020.04.04-23.31.34:069][195]Warning: Starting HotReload took  0.0s.
+[2020.04.04-23.31.40:045][900]CompilerResultsLog: New page: Compilation - Apr 4, 2020, 1:31:40 PM
+[2020.04.04-23.31.40:046][900]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Source\Udemy\Unreal\Section4\BuildingEscape).
+[2020.04.04-23.31.40:046][900]CompilerResultsLog: Parsing headers for BuildingEscapeEditor
+[2020.04.04-23.31.40:046][900]CompilerResultsLog:   Running UnrealHeaderTool "C:\Source\Udemy\Unreal\Section4\BuildingEscape\BuildingEscape\BuildingEscape.uproject" "C:\Source\Udemy\Unreal\Section4\BuildingEscape\BuildingEscape\Intermediate\Build\Win64\BuildingEscapeEditor\Development\BuildingEscapeEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2020.04.04-23.31.40:046][900]CompilerResultsLog: Reflection code generated for BuildingEscapeEditor in 4.2056254 seconds
+[2020.04.04-23.31.40:046][900]CompilerResultsLog: Using Visual Studio 2019 14.24.28314 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.24.28314) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2020.04.04-23.31.40:046][900]CompilerResultsLog: Building 4 actions with 8 processes...
+[2020.04.04-23.31.40:046][900]CompilerResultsLog:   [1/4] Grabber.cpp
+[2020.04.04-23.31.40:046][900]CompilerResultsLog:   C:\Source\Udemy\Unreal\Section4\BuildingEscape\BuildingEscape\Source\BuildingEscape\Grabber.cpp(82): warning C4458: declaration of 'PlayerLineFVectors' hides class member
+[2020.04.04-23.31.40:047][900]CompilerResultsLog:   C:\Source\Udemy\Unreal\Section4\BuildingEscape\BuildingEscape\Source\BuildingEscape\Grabber.h(31): note: see declaration of 'UGrabber::PlayerLineFVectors'
+[2020.04.04-23.31.40:047][900]CompilerResultsLog:   [2/4] UE4Editor-BuildingEscape-8266.lib
+[2020.04.04-23.31.40:047][900]CompilerResultsLog:      Creating library C:\Source\Udemy\Unreal\Section4\BuildingEscape\BuildingEscape\Intermediate\Build\Win64\UE4Editor\Development\BuildingEscape\UE4Editor-BuildingEscape-8266.lib and object C:\Source\Udemy\Unreal\Section4\BuildingEscape\BuildingEscape\Intermediate\Build\Win64\UE4Editor\Development\BuildingEscape\UE4Editor-BuildingEscape-8266.exp
+[2020.04.04-23.31.40:047][900]CompilerResultsLog:   [3/4] UE4Editor-BuildingEscape-8266.dll
+[2020.04.04-23.31.40:047][900]CompilerResultsLog:      Creating library C:\Source\Udemy\Unreal\Section4\BuildingEscape\BuildingEscape\Intermediate\Build\Win64\UE4Editor\Development\BuildingEscape\UE4Editor-BuildingEscape-8266.suppressed.lib and object C:\Source\Udemy\Unreal\Section4\BuildingEscape\BuildingEscape\Intermediate\Build\Win64\UE4Editor\Development\BuildingEscape\UE4Editor-BuildingEscape-8266.suppressed.exp
+[2020.04.04-23.31.40:047][900]CompilerResultsLog:   [4/4] BuildingEscapeEditor.target
+[2020.04.04-23.31.40:047][900]CompilerResultsLog: Total time in Parallel executor: 1.02 seconds
+[2020.04.04-23.31.40:048][900]CompilerResultsLog: Total execution time: 5.84 seconds
+[2020.04.04-23.31.40:048][900]LogMainFrame: MainFrame: Module compiling took 5.984 seconds
+[2020.04.04-23.31.40:074][900]LogUObjectHash: Compacting FUObjectHashTables data took   0.71ms
+[2020.04.04-23.31.40:074][900]LogBlueprintActionDatabase: Requesting refresh due to module change: BuildingEscape (unloaded)
+[2020.04.04-23.31.40:888][900]LogClass: Could not find existing class Grabber in package /Script/BuildingEscape for HotReload, assuming new class
+[2020.04.04-23.31.40:897][900]LogHotReload: Re-instancing Grabber after hot-reload.
+[2020.04.04-23.31.40:999][900]LogBlueprintActionDatabase: Requesting refresh due to module change: BuildingEscape (loaded)
+[2020.04.04-23.31.40:999][900]LogContentBrowser: Native class hierarchy updated for 'BuildingEscape' in 0.0003 seconds. Added 4 classes and 2 folders.
+[2020.04.04-23.31.41:003][900]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2020.04.04-23.31.41:051][900]LogUObjectHash: Compacting FUObjectHashTables data took   1.13ms
+[2020.04.04-23.31.41:051][900]LogBlueprintActionDatabase: Requesting refresh due to hot reload
+[2020.04.04-23.31.41:062][900]LogContentBrowser: Native class hierarchy populated in 0.0062 seconds. Added 2737 classes and 663 folders.
+[2020.04.04-23.31.41:062][900]Display: HotReload took  7.0s.
+[2020.04.04-23.34.39:366][609]Candidate modules for hot reload:
+[2020.04.04-23.34.39:366][609]  BuildingEscape
+[2020.04.04-23.34.39:366][609]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.22/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=BuildingEscape,2743 Win64 Development -TargetType=Editor -Project="C:/Source/Udemy/Unreal/Section4/BuildingEscape/BuildingEscape/BuildingEscape.uproject" "C:/Source/Udemy/Unreal/Section4/BuildingEscape/BuildingEscape/BuildingEscape.uproject"  -IgnoreJunk]
+[2020.04.04-23.34.39:368][609]Warning: Starting HotReload took  0.0s.
+[2020.04.04-23.34.44:817][248]CompilerResultsLog: New page: Compilation - Apr 4, 2020, 1:34:44 PM
+[2020.04.04-23.34.44:818][248]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Source\Udemy\Unreal\Section4\BuildingEscape).
+[2020.04.04-23.34.44:818][248]CompilerResultsLog: Parsing headers for BuildingEscapeEditor
+[2020.04.04-23.34.44:818][248]CompilerResultsLog:   Running UnrealHeaderTool "C:\Source\Udemy\Unreal\Section4\BuildingEscape\BuildingEscape\BuildingEscape.uproject" "C:\Source\Udemy\Unreal\Section4\BuildingEscape\BuildingEscape\Intermediate\Build\Win64\BuildingEscapeEditor\Development\BuildingEscapeEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2020.04.04-23.34.44:818][248]CompilerResultsLog: Reflection code generated for BuildingEscapeEditor in 4.1812335 seconds
+[2020.04.04-23.34.44:818][248]CompilerResultsLog: Using Visual Studio 2019 14.24.28314 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.24.28314) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2020.04.04-23.34.44:818][248]CompilerResultsLog: Building 5 actions with 8 processes...
+[2020.04.04-23.34.44:818][248]CompilerResultsLog:   [1/5] Grabber.cpp
+[2020.04.04-23.34.44:818][248]CompilerResultsLog:    C:\Source\Udemy\Unreal\Section4\BuildingEscape\BuildingEscape\Source\BuildingEscape\Grabber.cpp(82) : error C2678: binary '=': no operator found which takes a left-hand operand of type 'const std::tuple<FVector,FVector>' (or there is no acceptable conversion)
+[2020.04.04-23.34.44:819][248]CompilerResultsLog:   C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.24.28314\INCLUDE\tuple(558): note: could be 'std::tuple<FVector,FVector> &std::tuple<FVector,FVector>::operator =(volatile const std::tuple<FVector,FVector> &)'
+[2020.04.04-23.34.44:819][248]CompilerResultsLog:   C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.24.28314\INCLUDE\tuple(575): note: or       'std::tuple<FVector,FVector> &std::tuple<FVector,FVector>::operator =<std::tuple<FVector,FVector>,FVector,0>(std::tuple<FVector,FVector> &&) noexcept'
+[2020.04.04-23.34.44:819][248]CompilerResultsLog:   C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.24.28314\INCLUDE\tuple(564): note: or       'std::tuple<FVector,FVector> &std::tuple<FVector,FVector>::operator =<std::tuple<FVector,FVector>,FVector,0>(const std::tuple<FVector,FVector> &) noexcept(<expr>)'
+[2020.04.04-23.34.44:819][248]CompilerResultsLog:   C:\Source\Udemy\Unreal\Section4\BuildingEscape\BuildingEscape\Source\BuildingEscape\Grabber.cpp(82): note: while trying to match the argument list '(const std::tuple<FVector,FVector>, std::tuple<FVector,FVector>)'
+[2020.04.04-23.34.44:820][248]CompilerResultsLog:   [2/5] Grabber.gen.cpp
+[2020.04.04-23.34.44:820][248]LogMainFrame: MainFrame: Module compiling took 5.456 seconds
+[2020.04.04-23.34.44:820][248]Warning: HotReload failed, recompile failed
+[2020.04.04-23.35.22:203][949]Candidate modules for hot reload:
+[2020.04.04-23.35.22:203][949]  BuildingEscape
+[2020.04.04-23.35.22:204][949]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.22/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=BuildingEscape,5512 Win64 Development -TargetType=Editor -Project="C:/Source/Udemy/Unreal/Section4/BuildingEscape/BuildingEscape/BuildingEscape.uproject" "C:/Source/Udemy/Unreal/Section4/BuildingEscape/BuildingEscape/BuildingEscape.uproject"  -IgnoreJunk]
+[2020.04.04-23.35.22:206][949]Warning: Starting HotReload took  0.0s.
+[2020.04.04-23.35.28:171][654]CompilerResultsLog: New page: Compilation - Apr 4, 2020, 1:35:28 PM
+[2020.04.04-23.35.28:171][654]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Source\Udemy\Unreal\Section4\BuildingEscape).
+[2020.04.04-23.35.28:172][654]CompilerResultsLog: Parsing headers for BuildingEscapeEditor
+[2020.04.04-23.35.28:172][654]CompilerResultsLog:   Running UnrealHeaderTool "C:\Source\Udemy\Unreal\Section4\BuildingEscape\BuildingEscape\BuildingEscape.uproject" "C:\Source\Udemy\Unreal\Section4\BuildingEscape\BuildingEscape\Intermediate\Build\Win64\BuildingEscapeEditor\Development\BuildingEscapeEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2020.04.04-23.35.28:172][654]CompilerResultsLog: Reflection code generated for BuildingEscapeEditor in 4.2000574 seconds
+[2020.04.04-23.35.28:172][654]CompilerResultsLog: Using Visual Studio 2019 14.24.28314 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.24.28314) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2020.04.04-23.35.28:172][654]CompilerResultsLog: Building 5 actions with 8 processes...
+[2020.04.04-23.35.28:172][654]CompilerResultsLog:   [1/5] Grabber.gen.cpp
+[2020.04.04-23.35.28:172][654]CompilerResultsLog:   [2/5] Grabber.cpp
+[2020.04.04-23.35.28:172][654]CompilerResultsLog:   C:\Source\Udemy\Unreal\Section4\BuildingEscape\BuildingEscape\Source\BuildingEscape\Grabber.cpp(82): warning C4458: declaration of 'PlayerLineFVectors' hides class member
+[2020.04.04-23.35.28:173][654]CompilerResultsLog:   C:\Source\Udemy\Unreal\Section4\BuildingEscape\BuildingEscape\Source\BuildingEscape\Grabber.h(31): note: see declaration of 'UGrabber::PlayerLineFVectors'
+[2020.04.04-23.35.28:173][654]CompilerResultsLog:   [3/5] UE4Editor-BuildingEscape-5512.lib
+[2020.04.04-23.35.28:173][654]CompilerResultsLog:      Creating library C:\Source\Udemy\Unreal\Section4\BuildingEscape\BuildingEscape\Intermediate\Build\Win64\UE4Editor\Development\BuildingEscape\UE4Editor-BuildingEscape-5512.lib and object C:\Source\Udemy\Unreal\Section4\BuildingEscape\BuildingEscape\Intermediate\Build\Win64\UE4Editor\Development\BuildingEscape\UE4Editor-BuildingEscape-5512.exp
+[2020.04.04-23.35.28:173][654]CompilerResultsLog:   [4/5] UE4Editor-BuildingEscape-5512.dll
+[2020.04.04-23.35.28:173][654]CompilerResultsLog:      Creating library C:\Source\Udemy\Unreal\Section4\BuildingEscape\BuildingEscape\Intermediate\Build\Win64\UE4Editor\Development\BuildingEscape\UE4Editor-BuildingEscape-5512.suppressed.lib and object C:\Source\Udemy\Unreal\Section4\BuildingEscape\BuildingEscape\Intermediate\Build\Win64\UE4Editor\Development\BuildingEscape\UE4Editor-BuildingEscape-5512.suppressed.exp
+[2020.04.04-23.35.28:173][654]CompilerResultsLog:   [5/5] BuildingEscapeEditor.target
+[2020.04.04-23.35.28:173][654]CompilerResultsLog: Total time in Parallel executor: 1.04 seconds
+[2020.04.04-23.35.28:173][654]CompilerResultsLog: Total execution time: 5.88 seconds
+[2020.04.04-23.35.28:174][654]LogMainFrame: MainFrame: Module compiling took 5.973 seconds
+[2020.04.04-23.35.28:226][654]LogUObjectHash: Compacting FUObjectHashTables data took   2.78ms
+[2020.04.04-23.35.28:226][654]LogBlueprintActionDatabase: Requesting refresh due to module change: BuildingEscape (unloaded)
+[2020.04.04-23.35.28:927][654]LogBlueprintActionDatabase: Requesting refresh due to module change: BuildingEscape (loaded)
+[2020.04.04-23.35.28:927][654]LogContentBrowser: Native class hierarchy updated for 'BuildingEscape' in 0.0003 seconds. Added 4 classes and 2 folders.
+[2020.04.04-23.35.28:931][654]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2020.04.04-23.35.28:997][654]LogUObjectHash: Compacting FUObjectHashTables data took   2.19ms
+[2020.04.04-23.35.28:997][654]LogBlueprintActionDatabase: Requesting refresh due to hot reload
+[2020.04.04-23.35.29:009][654]LogContentBrowser: Native class hierarchy populated in 0.0064 seconds. Added 2737 classes and 663 folders.
+[2020.04.04-23.35.29:009][654]Display: HotReload took  6.8s.
+[2020.04.04-23.35.31:456][925]LogSlate: Window 'Message Log' being destroyed
+[2020.04.04-23.35.31:461][925]LogSlate: Window 'Message Log' being destroyed
+[2020.04.04-23.35.45:000][549]Candidate modules for hot reload:
+[2020.04.04-23.35.45:000][549]  BuildingEscape
+[2020.04.04-23.35.45:000][549]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.22/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=BuildingEscape,2394 Win64 Development -TargetType=Editor -Project="C:/Source/Udemy/Unreal/Section4/BuildingEscape/BuildingEscape/BuildingEscape.uproject" "C:/Source/Udemy/Unreal/Section4/BuildingEscape/BuildingEscape/BuildingEscape.uproject"  -IgnoreJunk]
+[2020.04.04-23.35.45:002][549]Warning: Starting HotReload took  0.0s.
+[2020.04.04-23.35.50:482][204]CompilerResultsLog: New page: Compilation - Apr 4, 2020, 1:35:50 PM
+[2020.04.04-23.35.50:483][204]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Source\Udemy\Unreal\Section4\BuildingEscape).
+[2020.04.04-23.35.50:483][204]CompilerResultsLog: Parsing headers for BuildingEscapeEditor
+[2020.04.04-23.35.50:483][204]CompilerResultsLog:   Running UnrealHeaderTool "C:\Source\Udemy\Unreal\Section4\BuildingEscape\BuildingEscape\BuildingEscape.uproject" "C:\Source\Udemy\Unreal\Section4\BuildingEscape\BuildingEscape\Intermediate\Build\Win64\BuildingEscapeEditor\Development\BuildingEscapeEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2020.04.04-23.35.50:483][204]CompilerResultsLog: Reflection code generated for BuildingEscapeEditor in 4.2012109 seconds
+[2020.04.04-23.35.50:483][204]CompilerResultsLog: Using Visual Studio 2019 14.24.28314 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.24.28314) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2020.04.04-23.35.50:483][204]CompilerResultsLog: Building 3 actions with 8 processes...
+[2020.04.04-23.35.50:483][204]CompilerResultsLog:   [1/3] UE4Editor-BuildingEscape-2394.lib
+[2020.04.04-23.35.50:483][204]CompilerResultsLog:      Creating library C:\Source\Udemy\Unreal\Section4\BuildingEscape\BuildingEscape\Intermediate\Build\Win64\UE4Editor\Development\BuildingEscape\UE4Editor-BuildingEscape-2394.lib and object C:\Source\Udemy\Unreal\Section4\BuildingEscape\BuildingEscape\Intermediate\Build\Win64\UE4Editor\Development\BuildingEscape\UE4Editor-BuildingEscape-2394.exp
+[2020.04.04-23.35.50:484][204]CompilerResultsLog:   [2/3] UE4Editor-BuildingEscape-2394.dll
+[2020.04.04-23.35.50:484][204]CompilerResultsLog:      Creating library C:\Source\Udemy\Unreal\Section4\BuildingEscape\BuildingEscape\Intermediate\Build\Win64\UE4Editor\Development\BuildingEscape\UE4Editor-BuildingEscape-2394.suppressed.lib and object C:\Source\Udemy\Unreal\Section4\BuildingEscape\BuildingEscape\Intermediate\Build\Win64\UE4Editor\Development\BuildingEscape\UE4Editor-BuildingEscape-2394.suppressed.exp
+[2020.04.04-23.35.50:484][204]CompilerResultsLog:   [3/3] BuildingEscapeEditor.target
+[2020.04.04-23.35.50:484][204]CompilerResultsLog: Total time in Parallel executor: 0.54 seconds
+[2020.04.04-23.35.50:484][204]CompilerResultsLog: Total execution time: 5.40 seconds
+[2020.04.04-23.35.50:484][204]LogMainFrame: MainFrame: Module compiling took 5.487 seconds
+[2020.04.04-23.35.50:535][204]LogUObjectHash: Compacting FUObjectHashTables data took   2.74ms
+[2020.04.04-23.35.50:536][204]LogBlueprintActionDatabase: Requesting refresh due to module change: BuildingEscape (unloaded)
+[2020.04.04-23.35.51:042][204]LogBlueprintActionDatabase: Requesting refresh due to module change: BuildingEscape (loaded)
+[2020.04.04-23.35.51:043][204]LogContentBrowser: Native class hierarchy updated for 'BuildingEscape' in 0.0006 seconds. Added 4 classes and 2 folders.
+[2020.04.04-23.35.51:048][204]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2020.04.04-23.35.51:117][204]LogUObjectHash: Compacting FUObjectHashTables data took   2.12ms
+[2020.04.04-23.35.51:117][204]LogBlueprintActionDatabase: Requesting refresh due to hot reload
+[2020.04.04-23.35.51:128][204]LogContentBrowser: Native class hierarchy populated in 0.0061 seconds. Added 2737 classes and 663 folders.
+[2020.04.04-23.35.51:128][204]Display: HotReload took  6.1s.
+[2020.04.04-23.35.52:675][368]LogTemp: Repeating last play command: Selected Viewport
+[2020.04.04-23.35.52:685][368]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Levels/Building_Escape.Building_Escape:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Levels/Building_Escape.Building_Escape:PersistentLevel.Building_Escape' with GeneratedClass '/Game/StarterContent/Maps/Levels/Building_Escape.Building_Escape_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Levels/Building_Escape.Building_Escape:PersistentLevel.Building_Escape'
+[2020.04.04-23.35.52:686][368]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.04.04-23.35.52:686][368]PIE: New page: PIE session: Building_Escape (Apr 4, 2020, 1:35:52 PM)
+[2020.04.04-23.35.52:686][368]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/Levels/UEDPIE_0_Building_Escape
+[2020.04.04-23.35.52:692][368]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006201s)
+[2020.04.04-23.35.52:693][368]LogAIModule: Creating AISystem for world Building_Escape
+[2020.04.04-23.35.52:693][368]LogPlayLevel: PIE: World Init took: (0.000581s)
+[2020.04.04-23.35.52:693][368]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Levels/Building_Escape.Building_Escape to /Game/StarterContent/Maps/Levels/UEDPIE_0_Building_Escape.Building_Escape (0.007088s)
+[2020.04.04-23.35.52:742][368]LogUObjectHash: Compacting FUObjectHashTables data took   2.63ms
+[2020.04.04-23.35.52:757][368]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2020.04.04-23.35.52:765][368]LogInit: FAudioDevice initialized.
+[2020.04.04-23.35.52:793][368]LogLoad: Game class is 'MyBuildingEscapeGameModeBase_BP_C'
+[2020.04.04-23.35.52:794][368]LogWorld: Bringing World /Game/StarterContent/Maps/Levels/UEDPIE_0_Building_Escape.Building_Escape up for play (max tick rate 0) at 2020.04.04-18.35.52
+[2020.04.04-23.35.52:794][368]LogWorld: Bringing up level for play took: 0.000972
+[2020.04.04-23.35.52:806][368]LogTemp: Warning: BP_Sky_Sphere_C_2 position in world is: X=0.000 Y=0.000 Z=0.000
+[2020.04.04-23.35.52:807][368]PIE: Play in editor start time for /Game/StarterContent/Maps/Levels/UEDPIE_0_Building_Escape -0.148
+[2020.04.04-23.35.52:807][368]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Levels/Building_Escape.Building_Escape:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Levels/Building_Escape.Building_Escape:PersistentLevel.Building_Escape' with GeneratedClass '/Game/StarterContent/Maps/Levels/Building_Escape.Building_Escape_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Levels/Building_Escape.Building_Escape:PersistentLevel.Building_Escape'
+[2020.04.04-23.35.54:715][595]LogTemp: Warning: Grabber pressed
+[2020.04.04-23.35.54:832][609]LogTemp: Warning: Grabber released
+[2020.04.04-23.35.55:201][653]LogTemp: Warning: Grabber pressed
+[2020.04.04-23.35.55:317][667]LogTemp: Warning: Grabber released
+[2020.04.04-23.35.56:301][785]LogTemp: Warning: Grabber pressed
+[2020.04.04-23.35.56:834][849]LogTemp: Warning: Grabber released
+[2020.04.04-23.35.58:318][ 27]LogTemp: Warning: Grabber pressed
+[2020.04.04-23.35.58:318][ 27]LogTemp: Warning: Line trace has hit: Cylinder_2
+[2020.04.04-23.35.59:467][165]LogTemp: Warning: Grabber released
+[2020.04.04-23.36.02:667][549]LogTemp: Warning: Grabber pressed
+[2020.04.04-23.36.02:668][549]LogTemp: Warning: Line trace has hit: Cone_5
+[2020.04.04-23.36.04:759][800]LogTemp: Warning: Grabber released
+[2020.04.04-23.36.14:000][909]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2020.04.04-23.36.15:343][ 70]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Levels/Building_Escape.Building_Escape:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Levels/Building_Escape.Building_Escape:PersistentLevel.Building_Escape' with GeneratedClass '/Game/StarterContent/Maps/Levels/Building_Escape.Building_Escape_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Levels/Building_Escape.Building_Escape:PersistentLevel.Building_Escape'
+[2020.04.04-23.36.15:343][ 70]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.04.04-23.36.15:369][ 70]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.04.04-23.36.15:369][ 70]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Levels/Building_Escape.Building_Escape:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Levels/Building_Escape.Building_Escape:PersistentLevel.Building_Escape' with GeneratedClass '/Game/StarterContent/Maps/Levels/Building_Escape.Building_Escape_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Levels/Building_Escape.Building_Escape:PersistentLevel.Building_Escape'
+[2020.04.04-23.36.15:402][ 70]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.04.04-23.36.15:414][ 70]LogUObjectHash: Compacting FUObjectHashTables data took   2.45ms
+[2020.04.04-23.36.15:445][ 73]LogPlayLevel: Display: Destroying online subsystem :Context_13
+[2020.04.04-23.37.12:653][545]Candidate modules for hot reload:
+[2020.04.04-23.37.12:653][545]  BuildingEscape
+[2020.04.04-23.37.12:653][545]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.22/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=BuildingEscape,7867 Win64 Development -TargetType=Editor -Project="C:/Source/Udemy/Unreal/Section4/BuildingEscape/BuildingEscape/BuildingEscape.uproject" "C:/Source/Udemy/Unreal/Section4/BuildingEscape/BuildingEscape/BuildingEscape.uproject"  -IgnoreJunk]
+[2020.04.04-23.37.12:655][545]Warning: Starting HotReload took  0.0s.
+[2020.04.04-23.37.19:243][326]CompilerResultsLog: New page: Compilation - Apr 4, 2020, 1:37:19 PM
+[2020.04.04-23.37.19:243][326]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Source\Udemy\Unreal\Section4\BuildingEscape).
+[2020.04.04-23.37.19:243][326]CompilerResultsLog: Creating makefile for BuildingEscapeEditor (ini files are newer than makefile)
+[2020.04.04-23.37.19:243][326]CompilerResultsLog: Parsing headers for BuildingEscapeEditor
+[2020.04.04-23.37.19:243][326]CompilerResultsLog:   Running UnrealHeaderTool "C:\Source\Udemy\Unreal\Section4\BuildingEscape\BuildingEscape\BuildingEscape.uproject" "C:\Source\Udemy\Unreal\Section4\BuildingEscape\BuildingEscape\Intermediate\Build\Win64\BuildingEscapeEditor\Development\BuildingEscapeEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2020.04.04-23.37.19:243][326]CompilerResultsLog: Reflection code generated for BuildingEscapeEditor in 4.202511 seconds
+[2020.04.04-23.37.19:243][326]CompilerResultsLog: Using Visual Studio 2019 14.24.28314 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.24.28314) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2020.04.04-23.37.19:244][326]CompilerResultsLog: Building 4 actions with 8 processes...
+[2020.04.04-23.37.19:244][326]CompilerResultsLog:   [1/4] Grabber.cpp
+[2020.04.04-23.37.19:244][326]CompilerResultsLog:   [2/4] UE4Editor-BuildingEscape-7867.lib
+[2020.04.04-23.37.19:244][326]CompilerResultsLog:      Creating library C:\Source\Udemy\Unreal\Section4\BuildingEscape\BuildingEscape\Intermediate\Build\Win64\UE4Editor\Development\BuildingEscape\UE4Editor-BuildingEscape-7867.lib and object C:\Source\Udemy\Unreal\Section4\BuildingEscape\BuildingEscape\Intermediate\Build\Win64\UE4Editor\Development\BuildingEscape\UE4Editor-BuildingEscape-7867.exp
+[2020.04.04-23.37.19:244][326]CompilerResultsLog:   [3/4] UE4Editor-BuildingEscape-7867.dll
+[2020.04.04-23.37.19:244][326]CompilerResultsLog:      Creating library C:\Source\Udemy\Unreal\Section4\BuildingEscape\BuildingEscape\Intermediate\Build\Win64\UE4Editor\Development\BuildingEscape\UE4Editor-BuildingEscape-7867.suppressed.lib and object C:\Source\Udemy\Unreal\Section4\BuildingEscape\BuildingEscape\Intermediate\Build\Win64\UE4Editor\Development\BuildingEscape\UE4Editor-BuildingEscape-7867.suppressed.exp
+[2020.04.04-23.37.19:244][326]CompilerResultsLog:   [4/4] BuildingEscapeEditor.target
+[2020.04.04-23.37.19:244][326]CompilerResultsLog: Total time in Parallel executor: 1.02 seconds
+[2020.04.04-23.37.19:245][326]CompilerResultsLog: Total execution time: 6.48 seconds
+[2020.04.04-23.37.19:245][326]LogMainFrame: MainFrame: Module compiling took 6.594 seconds
+[2020.04.04-23.37.19:270][326]LogUObjectHash: Compacting FUObjectHashTables data took   0.62ms
+[2020.04.04-23.37.19:271][326]LogBlueprintActionDatabase: Requesting refresh due to module change: BuildingEscape (unloaded)
+[2020.04.04-23.37.19:975][326]LogBlueprintActionDatabase: Requesting refresh due to module change: BuildingEscape (loaded)
+[2020.04.04-23.37.19:975][326]LogContentBrowser: Native class hierarchy updated for 'BuildingEscape' in 0.0003 seconds. Added 4 classes and 2 folders.
+[2020.04.04-23.37.19:978][326]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2020.04.04-23.37.20:028][326]LogUObjectHash: Compacting FUObjectHashTables data took   1.23ms
+[2020.04.04-23.37.20:029][326]LogBlueprintActionDatabase: Requesting refresh due to hot reload
+[2020.04.04-23.37.20:039][326]LogContentBrowser: Native class hierarchy populated in 0.0061 seconds. Added 2737 classes and 663 folders.
+[2020.04.04-23.37.20:039][326]Display: HotReload took  7.4s.
+[2020.04.04-23.37.22:168][560]LogTemp: Repeating last play command: Selected Viewport
+[2020.04.04-23.37.22:178][560]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Levels/Building_Escape.Building_Escape:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Levels/Building_Escape.Building_Escape:PersistentLevel.Building_Escape' with GeneratedClass '/Game/StarterContent/Maps/Levels/Building_Escape.Building_Escape_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Levels/Building_Escape.Building_Escape:PersistentLevel.Building_Escape'
+[2020.04.04-23.37.22:179][560]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.04.04-23.37.22:179][560]PIE: New page: PIE session: Building_Escape (Apr 4, 2020, 1:37:22 PM)
+[2020.04.04-23.37.22:179][560]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/Levels/UEDPIE_0_Building_Escape
+[2020.04.04-23.37.22:185][560]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006171s)
+[2020.04.04-23.37.22:186][560]LogAIModule: Creating AISystem for world Building_Escape
+[2020.04.04-23.37.22:186][560]LogPlayLevel: PIE: World Init took: (0.000438s)
+[2020.04.04-23.37.22:186][560]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Levels/Building_Escape.Building_Escape to /Game/StarterContent/Maps/Levels/UEDPIE_0_Building_Escape.Building_Escape (0.006905s)
+[2020.04.04-23.37.22:236][560]LogUObjectHash: Compacting FUObjectHashTables data took   2.56ms
+[2020.04.04-23.37.22:250][560]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2020.04.04-23.37.22:256][560]LogInit: FAudioDevice initialized.
+[2020.04.04-23.37.22:283][560]LogLoad: Game class is 'MyBuildingEscapeGameModeBase_BP_C'
+[2020.04.04-23.37.22:285][560]LogWorld: Bringing World /Game/StarterContent/Maps/Levels/UEDPIE_0_Building_Escape.Building_Escape up for play (max tick rate 0) at 2020.04.04-18.37.22
+[2020.04.04-23.37.22:285][560]LogWorld: Bringing up level for play took: 0.000899
+[2020.04.04-23.37.22:296][560]LogTemp: Warning: BP_Sky_Sphere_C_2 position in world is: X=0.000 Y=0.000 Z=0.000
+[2020.04.04-23.37.22:297][560]PIE: Play in editor start time for /Game/StarterContent/Maps/Levels/UEDPIE_0_Building_Escape -0.658
+[2020.04.04-23.37.22:297][560]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Levels/Building_Escape.Building_Escape:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Levels/Building_Escape.Building_Escape:PersistentLevel.Building_Escape' with GeneratedClass '/Game/StarterContent/Maps/Levels/Building_Escape.Building_Escape_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Levels/Building_Escape.Building_Escape:PersistentLevel.Building_Escape'
+[2020.04.04-23.37.24:545][828]LogTemp: Warning: Grabber pressed
+[2020.04.04-23.37.24:545][828]LogTemp: Warning: Line trace has hit: Cylinder_2
+[2020.04.04-23.37.25:727][970]LogTemp: Warning: Grabber released
+[2020.04.04-23.37.27:745][212]LogTemp: Warning: Grabber pressed
+[2020.04.04-23.37.28:295][278]LogTemp: Warning: Grabber released
+[2020.04.04-23.37.28:836][343]LogTemp: Warning: Grabber pressed
+[2020.04.04-23.37.28:836][343]LogTemp: Warning: Line trace has hit: Cone_5
+[2020.04.04-23.37.30:061][490]LogTemp: Warning: Grabber released
+[2020.04.04-23.37.31:603][675]LogTemp: Warning: Grabber pressed
+[2020.04.04-23.37.31:712][688]LogTemp: Warning: Grabber released
+[2020.04.04-23.37.31:920][713]LogTemp: Warning: Grabber pressed
+[2020.04.04-23.37.32:078][732]LogTemp: Warning: Grabber released
+[2020.04.04-23.37.33:778][936]LogTemp: Warning: Grabber pressed
+[2020.04.04-23.37.34:328][  2]LogTemp: Warning: Grabber released
+[2020.04.04-23.37.35:245][112]LogTemp: Warning: Grabber pressed
+[2020.04.04-23.37.35:787][177]LogTemp: Warning: Grabber released
+[2020.04.04-23.37.36:237][231]LogTemp: Warning: Grabber pressed
+[2020.04.04-23.37.36:237][231]LogTemp: Warning: Line trace has hit: Cylinder_2
+[2020.04.04-23.37.37:211][348]LogTemp: Warning: Grabber released
+[2020.04.04-23.37.39:911][672]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2020.04.04-23.37.41:612][876]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Levels/Building_Escape.Building_Escape:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Levels/Building_Escape.Building_Escape:PersistentLevel.Building_Escape' with GeneratedClass '/Game/StarterContent/Maps/Levels/Building_Escape.Building_Escape_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Levels/Building_Escape.Building_Escape:PersistentLevel.Building_Escape'
+[2020.04.04-23.37.41:612][876]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.04.04-23.37.41:641][876]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.04.04-23.37.41:641][876]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Levels/Building_Escape.Building_Escape:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Levels/Building_Escape.Building_Escape:PersistentLevel.Building_Escape' with GeneratedClass '/Game/StarterContent/Maps/Levels/Building_Escape.Building_Escape_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Levels/Building_Escape.Building_Escape:PersistentLevel.Building_Escape'
+[2020.04.04-23.37.41:674][876]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.04.04-23.37.41:687][876]LogUObjectHash: Compacting FUObjectHashTables data took   2.36ms
+[2020.04.04-23.37.41:717][879]LogPlayLevel: Display: Destroying online subsystem :Context_14
+[2020.04.04-23.38.11:486][863]Candidate modules for hot reload:
+[2020.04.04-23.38.11:486][863]  BuildingEscape
+[2020.04.04-23.38.11:487][863]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.22/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=BuildingEscape,1469 Win64 Development -TargetType=Editor -Project="C:/Source/Udemy/Unreal/Section4/BuildingEscape/BuildingEscape/BuildingEscape.uproject" "C:/Source/Udemy/Unreal/Section4/BuildingEscape/BuildingEscape/BuildingEscape.uproject"  -IgnoreJunk]
+[2020.04.04-23.38.11:489][863]Warning: Starting HotReload took  0.0s.
+[2020.04.04-23.38.17:459][567]CompilerResultsLog: New page: Compilation - Apr 4, 2020, 1:38:17 PM
+[2020.04.04-23.38.17:459][567]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Source\Udemy\Unreal\Section4\BuildingEscape).
+[2020.04.04-23.38.17:459][567]CompilerResultsLog: Creating makefile for BuildingEscapeEditor (ini files are newer than makefile)
+[2020.04.04-23.38.17:459][567]CompilerResultsLog: Parsing headers for BuildingEscapeEditor
+[2020.04.04-23.38.17:459][567]CompilerResultsLog:   Running UnrealHeaderTool "C:\Source\Udemy\Unreal\Section4\BuildingEscape\BuildingEscape\BuildingEscape.uproject" "C:\Source\Udemy\Unreal\Section4\BuildingEscape\BuildingEscape\Intermediate\Build\Win64\BuildingEscapeEditor\Development\BuildingEscapeEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2020.04.04-23.38.17:460][567]CompilerResultsLog: Reflection code generated for BuildingEscapeEditor in 4.1767975 seconds
+[2020.04.04-23.38.17:460][567]CompilerResultsLog: Using Visual Studio 2019 14.24.28314 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.24.28314) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2020.04.04-23.38.17:460][567]CompilerResultsLog: Building 4 actions with 8 processes...
+[2020.04.04-23.38.17:460][567]CompilerResultsLog:   [1/4] Grabber.cpp
+[2020.04.04-23.38.17:460][567]CompilerResultsLog:    C:\Source\Udemy\Unreal\Section4\BuildingEscape\BuildingEscape\Source\BuildingEscape\Grabber.cpp(75) : error C2143: syntax error: missing ')' before ';'
+[2020.04.04-23.38.17:460][567]LogMainFrame: MainFrame: Module compiling took 5.977 seconds
+[2020.04.04-23.38.17:460][567]Warning: HotReload failed, recompile failed
+[2020.04.04-23.43.08:524][512]Candidate modules for hot reload:
+[2020.04.04-23.43.08:524][512]  BuildingEscape
+[2020.04.04-23.43.08:524][512]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.22/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=BuildingEscape,7548 Win64 Development -TargetType=Editor -Project="C:/Source/Udemy/Unreal/Section4/BuildingEscape/BuildingEscape/BuildingEscape.uproject" "C:/Source/Udemy/Unreal/Section4/BuildingEscape/BuildingEscape/BuildingEscape.uproject"  -IgnoreJunk]
+[2020.04.04-23.43.08:526][512]Warning: Starting HotReload took  0.0s.
+[2020.04.04-23.43.14:539][230]CompilerResultsLog: New page: Compilation - Apr 4, 2020, 1:43:14 PM
+[2020.04.04-23.43.14:539][230]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Source\Udemy\Unreal\Section4\BuildingEscape).
+[2020.04.04-23.43.14:539][230]CompilerResultsLog: Parsing headers for BuildingEscapeEditor
+[2020.04.04-23.43.14:539][230]CompilerResultsLog:   Running UnrealHeaderTool "C:\Source\Udemy\Unreal\Section4\BuildingEscape\BuildingEscape\BuildingEscape.uproject" "C:\Source\Udemy\Unreal\Section4\BuildingEscape\BuildingEscape\Intermediate\Build\Win64\BuildingEscapeEditor\Development\BuildingEscapeEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2020.04.04-23.43.14:539][230]CompilerResultsLog: Reflection code generated for BuildingEscapeEditor in 4.219634 seconds
+[2020.04.04-23.43.14:540][230]CompilerResultsLog: Using Visual Studio 2019 14.24.28314 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.24.28314) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2020.04.04-23.43.14:540][230]CompilerResultsLog: Building 5 actions with 8 processes...
+[2020.04.04-23.43.14:540][230]CompilerResultsLog:   [1/5] Grabber.gen.cpp
+[2020.04.04-23.43.14:540][230]CompilerResultsLog:   [2/5] Grabber.cpp
+[2020.04.04-23.43.14:540][230]CompilerResultsLog:   [3/5] UE4Editor-BuildingEscape-7548.lib
+[2020.04.04-23.43.14:540][230]CompilerResultsLog:      Creating library C:\Source\Udemy\Unreal\Section4\BuildingEscape\BuildingEscape\Intermediate\Build\Win64\UE4Editor\Development\BuildingEscape\UE4Editor-BuildingEscape-7548.lib and object C:\Source\Udemy\Unreal\Section4\BuildingEscape\BuildingEscape\Intermediate\Build\Win64\UE4Editor\Development\BuildingEscape\UE4Editor-BuildingEscape-7548.exp
+[2020.04.04-23.43.14:540][230]CompilerResultsLog:   [4/5] UE4Editor-BuildingEscape-7548.dll
+[2020.04.04-23.43.14:540][230]CompilerResultsLog:      Creating library C:\Source\Udemy\Unreal\Section4\BuildingEscape\BuildingEscape\Intermediate\Build\Win64\UE4Editor\Development\BuildingEscape\UE4Editor-BuildingEscape-7548.suppressed.lib and object C:\Source\Udemy\Unreal\Section4\BuildingEscape\BuildingEscape\Intermediate\Build\Win64\UE4Editor\Development\BuildingEscape\UE4Editor-BuildingEscape-7548.suppressed.exp
+[2020.04.04-23.43.14:541][230]CompilerResultsLog:   [5/5] BuildingEscapeEditor.target
+[2020.04.04-23.43.14:541][230]CompilerResultsLog: Total time in Parallel executor: 1.04 seconds
+[2020.04.04-23.43.14:541][230]CompilerResultsLog: Total execution time: 5.93 seconds
+[2020.04.04-23.43.14:541][230]LogMainFrame: MainFrame: Module compiling took 6.019 seconds
+[2020.04.04-23.43.14:567][230]LogUObjectHash: Compacting FUObjectHashTables data took   0.79ms
+[2020.04.04-23.43.14:568][230]LogBlueprintActionDatabase: Requesting refresh due to module change: BuildingEscape (unloaded)
+[2020.04.04-23.43.15:310][230]LogClass: Could not find existing class Grabber in package /Script/BuildingEscape for HotReload, assuming new class
+[2020.04.04-23.43.15:318][230]LogHotReload: Re-instancing Grabber after hot-reload.
+[2020.04.04-23.43.15:421][230]LogBlueprintActionDatabase: Requesting refresh due to module change: BuildingEscape (loaded)
+[2020.04.04-23.43.15:422][230]LogContentBrowser: Native class hierarchy updated for 'BuildingEscape' in 0.0003 seconds. Added 4 classes and 2 folders.
+[2020.04.04-23.43.15:425][230]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2020.04.04-23.43.15:476][230]LogUObjectHash: Compacting FUObjectHashTables data took   1.33ms
+[2020.04.04-23.43.15:476][230]LogBlueprintActionDatabase: Requesting refresh due to hot reload
+[2020.04.04-23.43.15:486][230]LogContentBrowser: Native class hierarchy populated in 0.0062 seconds. Added 2737 classes and 663 folders.
+[2020.04.04-23.43.15:486][230]Display: HotReload took  7.0s.
+[2020.04.04-23.43.19:150][354]LogSlate: Window 'Message Log' being destroyed
+[2020.04.04-23.43.19:154][354]LogSlate: Window 'Message Log' being destroyed
+[2020.04.04-23.43.19:868][440]LogTemp: Repeating last play command: Selected Viewport
+[2020.04.04-23.43.19:880][440]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Levels/Building_Escape.Building_Escape:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Levels/Building_Escape.Building_Escape:PersistentLevel.Building_Escape' with GeneratedClass '/Game/StarterContent/Maps/Levels/Building_Escape.Building_Escape_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Levels/Building_Escape.Building_Escape:PersistentLevel.Building_Escape'
+[2020.04.04-23.43.19:880][440]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.04.04-23.43.19:880][440]PIE: New page: PIE session: Building_Escape (Apr 4, 2020, 1:43:19 PM)
+[2020.04.04-23.43.19:880][440]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/Levels/UEDPIE_0_Building_Escape
+[2020.04.04-23.43.19:887][440]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006529s)
+[2020.04.04-23.43.19:887][440]LogAIModule: Creating AISystem for world Building_Escape
+[2020.04.04-23.43.19:888][440]LogPlayLevel: PIE: World Init took: (0.000558s)
+[2020.04.04-23.43.19:888][440]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Levels/Building_Escape.Building_Escape to /Game/StarterContent/Maps/Levels/UEDPIE_0_Building_Escape.Building_Escape (0.007396s)
+[2020.04.04-23.43.19:939][440]LogUObjectHash: Compacting FUObjectHashTables data took   2.72ms
+[2020.04.04-23.43.19:952][440]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2020.04.04-23.43.19:960][440]LogInit: FAudioDevice initialized.
+[2020.04.04-23.43.19:987][440]LogLoad: Game class is 'MyBuildingEscapeGameModeBase_BP_C'
+[2020.04.04-23.43.19:988][440]LogWorld: Bringing World /Game/StarterContent/Maps/Levels/UEDPIE_0_Building_Escape.Building_Escape up for play (max tick rate 0) at 2020.04.04-18.43.19
+[2020.04.04-23.43.19:988][440]LogWorld: Bringing up level for play took: 0.001010
+[2020.04.04-23.43.20:000][440]LogTemp: Warning: BP_Sky_Sphere_C_2 position in world is: X=0.000 Y=0.000 Z=0.000
+[2020.04.04-23.43.20:001][440]PIE: Play in editor start time for /Game/StarterContent/Maps/Levels/UEDPIE_0_Building_Escape 1.046
+[2020.04.04-23.43.20:001][440]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Levels/Building_Escape.Building_Escape:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Levels/Building_Escape.Building_Escape:PersistentLevel.Building_Escape' with GeneratedClass '/Game/StarterContent/Maps/Levels/Building_Escape.Building_Escape_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Levels/Building_Escape.Building_Escape:PersistentLevel.Building_Escape'
+[2020.04.04-23.43.24:617][992]LogTemp: Warning: Grabber pressed
+[2020.04.04-23.43.24:617][992]LogTemp: Warning: Line trace has hit: Cylinder_2
+[2020.04.04-23.43.25:624][113]LogTemp: Warning: Grabber released
+[2020.04.04-23.43.27:657][357]LogTemp: Warning: Grabber pressed
+[2020.04.04-23.43.27:657][357]LogTemp: Warning: Line trace has hit: Cone_5
+[2020.04.04-23.43.28:766][490]LogTemp: Warning: Grabber released
+[2020.04.04-23.43.29:716][604]LogTemp: Warning: Grabber pressed
+[2020.04.04-23.43.29:849][620]LogTemp: Warning: Grabber released
+[2020.04.04-23.43.30:058][645]LogTemp: Warning: Grabber pressed
+[2020.04.04-23.43.30:116][652]LogTemp: Warning: Grabber released
+[2020.04.04-23.43.31:882][864]LogTemp: Warning: Grabber pressed
+[2020.04.04-23.43.31:883][864]LogTemp: Warning: Line trace has hit: Cone_5
+[2020.04.04-23.43.34:182][140]LogTemp: Warning: Grabber released
+[2020.04.04-23.43.36:182][376]LogTemp: Warning: Grabber pressed
+[2020.04.04-23.43.36:182][376]LogTemp: Warning: Line trace has hit: Cylinder_2
+[2020.04.04-23.43.37:981][592]LogTemp: Warning: Grabber released
+[2020.04.04-23.43.39:982][832]LogTemp: Warning: Grabber pressed
+[2020.04.04-23.43.39:982][832]LogTemp: Warning: Line trace has hit: Cylinder_2
+[2020.04.04-23.43.40:857][937]LogTemp: Warning: Grabber released
+[2020.04.04-23.43.44:464][370]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2020.04.04-23.43.45:599][506]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Levels/Building_Escape.Building_Escape:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Levels/Building_Escape.Building_Escape:PersistentLevel.Building_Escape' with GeneratedClass '/Game/StarterContent/Maps/Levels/Building_Escape.Building_Escape_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Levels/Building_Escape.Building_Escape:PersistentLevel.Building_Escape'
+[2020.04.04-23.43.45:599][506]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.04.04-23.43.45:625][506]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.04.04-23.43.45:625][506]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Levels/Building_Escape.Building_Escape:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Levels/Building_Escape.Building_Escape:PersistentLevel.Building_Escape' with GeneratedClass '/Game/StarterContent/Maps/Levels/Building_Escape.Building_Escape_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Levels/Building_Escape.Building_Escape:PersistentLevel.Building_Escape'
+[2020.04.04-23.43.45:654][506]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.04.04-23.43.45:658][506]LogUObjectHash: Compacting FUObjectHashTables data took   2.41ms
+[2020.04.04-23.43.45:705][511]LogPlayLevel: Display: Destroying online subsystem :Context_15
+[2020.04.04-23.46.38:659][200]Candidate modules for hot reload:
+[2020.04.04-23.46.38:660][200]  BuildingEscape
+[2020.04.04-23.46.38:660][200]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.22/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=BuildingEscape,6390 Win64 Development -TargetType=Editor -Project="C:/Source/Udemy/Unreal/Section4/BuildingEscape/BuildingEscape/BuildingEscape.uproject" "C:/Source/Udemy/Unreal/Section4/BuildingEscape/BuildingEscape/BuildingEscape.uproject"  -IgnoreJunk]
+[2020.04.04-23.46.38:662][200]Warning: Starting HotReload took  0.0s.
+[2020.04.04-23.46.56:959][633]CompilerResultsLog: New page: Compilation - Apr 4, 2020, 1:46:56 PM
+[2020.04.04-23.46.56:959][633]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Source\Udemy\Unreal\Section4\BuildingEscape).
+[2020.04.04-23.46.56:959][633]CompilerResultsLog: Creating makefile for BuildingEscapeEditor (no existing makefile)
+[2020.04.04-23.46.56:959][633]CompilerResultsLog: Parsing headers for BuildingEscapeEditor
+[2020.04.04-23.46.56:959][633]CompilerResultsLog:   Running UnrealHeaderTool "C:\Source\Udemy\Unreal\Section4\BuildingEscape\BuildingEscape\BuildingEscape.uproject" "C:\Source\Udemy\Unreal\Section4\BuildingEscape\BuildingEscape\Intermediate\Build\Win64\BuildingEscapeEditor\Development\BuildingEscapeEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2020.04.04-23.46.56:960][633]CompilerResultsLog: Reflection code generated for BuildingEscapeEditor in 4.1643182 seconds
+[2020.04.04-23.46.56:960][633]CompilerResultsLog: Using Visual Studio 2019 14.24.28314 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.24.28314) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2020.04.04-23.46.56:960][633]CompilerResultsLog: Building 15 actions with 8 processes...
+[2020.04.04-23.46.56:960][633]CompilerResultsLog:   [1/15] Default.rc2
+[2020.04.04-23.46.56:960][633]CompilerResultsLog:   [2/15] SharedPCH.Engine.cpp
+[2020.04.04-23.46.56:960][633]CompilerResultsLog:   [3/15] OpenDoor.cpp
+[2020.04.04-23.46.56:960][633]CompilerResultsLog:   [4/15] WorldPosition.cpp
+[2020.04.04-23.46.56:960][633]CompilerResultsLog:   [5/15] BuildingEscape.init.gen.cpp
+[2020.04.04-23.46.56:960][633]CompilerResultsLog:   [6/15] BuildingEscapeGameModeBase.cpp
+[2020.04.04-23.46.56:960][633]CompilerResultsLog:   [7/15] OpenDoor.gen.cpp
+[2020.04.04-23.46.56:960][633]CompilerResultsLog:   [8/15] BuildingEscapeGameModeBase.gen.cpp
+[2020.04.04-23.46.56:961][633]CompilerResultsLog:   [9/15] Grabber.cpp
+[2020.04.04-23.46.56:961][633]CompilerResultsLog:   [10/15] Grabber.gen.cpp
+[2020.04.04-23.46.56:961][633]CompilerResultsLog:   [11/15] BuildingEscape.cpp
+[2020.04.04-23.46.56:961][633]CompilerResultsLog:   [12/15] WorldPosition.gen.cpp
+[2020.04.04-23.46.56:961][633]CompilerResultsLog:   [13/15] UE4Editor-BuildingEscape-6390.lib
+[2020.04.04-23.46.56:961][633]CompilerResultsLog:      Creating library C:\Source\Udemy\Unreal\Section4\BuildingEscape\BuildingEscape\Intermediate\Build\Win64\UE4Editor\Development\BuildingEscape\UE4Editor-BuildingEscape-6390.lib and object C:\Source\Udemy\Unreal\Section4\BuildingEscape\BuildingEscape\Intermediate\Build\Win64\UE4Editor\Development\BuildingEscape\UE4Editor-BuildingEscape-6390.exp
+[2020.04.04-23.46.56:961][633]CompilerResultsLog:   [14/15] UE4Editor-BuildingEscape-6390.dll
+[2020.04.04-23.46.56:961][633]CompilerResultsLog:      Creating library C:\Source\Udemy\Unreal\Section4\BuildingEscape\BuildingEscape\Intermediate\Build\Win64\UE4Editor\Development\BuildingEscape\UE4Editor-BuildingEscape-6390.suppressed.lib and object C:\Source\Udemy\Unreal\Section4\BuildingEscape\BuildingEscape\Intermediate\Build\Win64\UE4Editor\Development\BuildingEscape\UE4Editor-BuildingEscape-6390.suppressed.exp
+[2020.04.04-23.46.56:961][633]CompilerResultsLog:   [15/15] BuildingEscapeEditor.target
+[2020.04.04-23.46.56:961][633]CompilerResultsLog: Total time in Parallel executor: 12.44 seconds
+[2020.04.04-23.46.56:962][633]CompilerResultsLog: Total execution time: 18.05 seconds
+[2020.04.04-23.46.56:962][633]LogMainFrame: MainFrame: Module compiling took 18.305 seconds
+[2020.04.04-23.46.56:988][633]LogUObjectHash: Compacting FUObjectHashTables data took   0.76ms
+[2020.04.04-23.46.56:988][633]LogBlueprintActionDatabase: Requesting refresh due to module change: BuildingEscape (unloaded)
+[2020.04.04-23.46.57:693][633]LogBlueprintActionDatabase: Requesting refresh due to module change: BuildingEscape (loaded)
+[2020.04.04-23.46.57:694][633]LogContentBrowser: Native class hierarchy updated for 'BuildingEscape' in 0.0005 seconds. Added 4 classes and 2 folders.
+[2020.04.04-23.46.57:698][633]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2020.04.04-23.46.57:749][633]LogUObjectHash: Compacting FUObjectHashTables data took   1.19ms
+[2020.04.04-23.46.57:749][633]LogBlueprintActionDatabase: Requesting refresh due to hot reload
+[2020.04.04-23.46.57:760][633]LogContentBrowser: Native class hierarchy populated in 0.0066 seconds. Added 2737 classes and 663 folders.
+[2020.04.04-23.46.57:761][633]Display: HotReload took 19.1s.
+[2020.04.04-23.47.02:725][777]Candidate modules for hot reload:
+[2020.04.04-23.47.02:725][777]  BuildingEscape
+[2020.04.04-23.47.02:725][777]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.22/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=BuildingEscape,1070 Win64 Development -TargetType=Editor -Project="C:/Source/Udemy/Unreal/Section4/BuildingEscape/BuildingEscape/BuildingEscape.uproject" "C:/Source/Udemy/Unreal/Section4/BuildingEscape/BuildingEscape/BuildingEscape.uproject"  -IgnoreJunk]
+[2020.04.04-23.47.02:728][777]Warning: Starting HotReload took  0.0s.
+[2020.04.04-23.47.08:277][440]CompilerResultsLog: New page: Compilation - Apr 4, 2020, 1:47:08 PM
+[2020.04.04-23.47.08:277][440]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Source\Udemy\Unreal\Section4\BuildingEscape).
+[2020.04.04-23.47.08:277][440]CompilerResultsLog: Parsing headers for BuildingEscapeEditor
+[2020.04.04-23.47.08:277][440]CompilerResultsLog:   Running UnrealHeaderTool "C:\Source\Udemy\Unreal\Section4\BuildingEscape\BuildingEscape\BuildingEscape.uproject" "C:\Source\Udemy\Unreal\Section4\BuildingEscape\BuildingEscape\Intermediate\Build\Win64\BuildingEscapeEditor\Development\BuildingEscapeEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2020.04.04-23.47.08:278][440]CompilerResultsLog: Reflection code generated for BuildingEscapeEditor in 4.2581326 seconds
+[2020.04.04-23.47.08:278][440]CompilerResultsLog: Using Visual Studio 2019 14.24.28314 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.24.28314) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2020.04.04-23.47.08:278][440]CompilerResultsLog: Building 3 actions with 8 processes...
+[2020.04.04-23.47.08:278][440]CompilerResultsLog:   [1/3] UE4Editor-BuildingEscape-1070.lib
+[2020.04.04-23.47.08:278][440]CompilerResultsLog:      Creating library C:\Source\Udemy\Unreal\Section4\BuildingEscape\BuildingEscape\Intermediate\Build\Win64\UE4Editor\Development\BuildingEscape\UE4Editor-BuildingEscape-1070.lib and object C:\Source\Udemy\Unreal\Section4\BuildingEscape\BuildingEscape\Intermediate\Build\Win64\UE4Editor\Development\BuildingEscape\UE4Editor-BuildingEscape-1070.exp
+[2020.04.04-23.47.08:278][440]CompilerResultsLog:   [2/3] UE4Editor-BuildingEscape-1070.dll
+[2020.04.04-23.47.08:279][440]CompilerResultsLog:      Creating library C:\Source\Udemy\Unreal\Section4\BuildingEscape\BuildingEscape\Intermediate\Build\Win64\UE4Editor\Development\BuildingEscape\UE4Editor-BuildingEscape-1070.suppressed.lib and object C:\Source\Udemy\Unreal\Section4\BuildingEscape\BuildingEscape\Intermediate\Build\Win64\UE4Editor\Development\BuildingEscape\UE4Editor-BuildingEscape-1070.suppressed.exp
+[2020.04.04-23.47.08:279][440]CompilerResultsLog:   [3/3] BuildingEscapeEditor.target
+[2020.04.04-23.47.08:279][440]CompilerResultsLog: Total time in Parallel executor: 0.54 seconds
+[2020.04.04-23.47.08:279][440]CompilerResultsLog: Total execution time: 5.46 seconds
+[2020.04.04-23.47.08:279][440]LogMainFrame: MainFrame: Module compiling took 5.555 seconds
+[2020.04.04-23.47.08:331][440]LogUObjectHash: Compacting FUObjectHashTables data took   2.67ms
+[2020.04.04-23.47.08:331][440]LogBlueprintActionDatabase: Requesting refresh due to module change: BuildingEscape (unloaded)
+[2020.04.04-23.47.08:811][440]LogBlueprintActionDatabase: Requesting refresh due to module change: BuildingEscape (loaded)
+[2020.04.04-23.47.08:812][440]LogContentBrowser: Native class hierarchy updated for 'BuildingEscape' in 0.0003 seconds. Added 4 classes and 2 folders.
+[2020.04.04-23.47.08:815][440]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2020.04.04-23.47.08:881][440]LogUObjectHash: Compacting FUObjectHashTables data took   2.11ms
+[2020.04.04-23.47.08:881][440]LogBlueprintActionDatabase: Requesting refresh due to hot reload
+[2020.04.04-23.47.08:893][440]LogContentBrowser: Native class hierarchy populated in 0.0063 seconds. Added 2737 classes and 663 folders.
+[2020.04.04-23.47.08:893][440]Display: HotReload took  6.2s.
+[2020.04.04-23.49.02:337][362]MapCheck: New page: Map Check
+[2020.04.04-23.49.02:346][362]Cmd: MAP REBUILD ALLVISIBLE
+[2020.04.04-23.49.02:346][362]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2020.04.04-23.49.02:373][362]LogBlueprintActionDatabase: Requesting refresh due to module change: HierarchicalLODUtilities (loaded)
+[2020.04.04-23.49.02:426][362]LogUObjectHash: Compacting FUObjectHashTables data took   2.87ms
+[2020.04.04-23.49.02:443][362]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2020.04.04-23.49.02:451][362]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2020.04.04-23.49.02:456][362]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2020.04.04-23.49.02:462][362]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2020.04.04-23.49.02:474][362]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. Is special engine material.
+[2020.04.04-23.49.02:497][362]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2020.04.04-23.49.03:841][362]LogShaderCompilers: Display: Shaders left to compile 40
+[2020.04.04-23.49.03:841][362]LogShaderCompilers: Display: Shaders left to compile 30
+[2020.04.04-23.49.03:841][362]LogShaderCompilers: Display: Shaders left to compile 20
+[2020.04.04-23.49.03:841][362]LogShaderCompilers: Display: Shaders left to compile 10
+[2020.04.04-23.49.03:841][362]TextureStreamingBuild: Display: Compiling optional shaders took 1.404 seconds.
+[2020.04.04-23.49.03:862][362]LogLevel: Display: Export Material TexCoord Scales took 0.021 seconds.
+[2020.04.04-23.49.03:874][362]TextureStreamingBuild: Display: Build Texture Streaming took 0.012 seconds.
+[2020.04.04-23.49.03:911][362]LogUObjectHash: Compacting FUObjectHashTables data took   2.07ms
+[2020.04.04-23.49.03:912][362]LightingResults: New page: Lighting Build - Apr 4, 2020, 1:49:03 PM
+[2020.04.04-23.49.03:933][362]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2020.04.04-23.49.03:987][362]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2020.04.04-23.49.03:995][362]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2020.04.04-23.49.04:501][362]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2020.04.04-23.49.04:501][362]LogSwarmInterface: [TryOpenConnection] Local Process ID is 7860
+[2020.04.04-23.49.10:975][362]LogStaticLightingSystem: Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2020.04.04-23.49.10:975][362]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2020.04.04-23.49.10:975][362]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2020.04.04-23.49.10:975][362]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2020.04.04-23.49.10:975][362]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2020.04.04-23.49.10:975][362]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2020.04.04-23.49.11:136][362]Cmd: MAP CHECK DONTDISPLAYDIALOG
+[2020.04.04-23.49.11:136][362]MapCheck: New page: Building_Escape - Apr 4, 2020, 1:49:11 PM
+[2020.04.04-23.49.11:136][362]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.408ms to complete.
+[2020.04.04-23.49.11:159][362]LogEditorBuildUtils: Build time 0:08
+[2020.04.04-23.49.11:484][364]LogUObjectHash: Compacting FUObjectHashTables data took   2.54ms
+[2020.04.04-23.49.13:285][509]Job is a success!
+[2020.04.04-23.49.13:328][510]LogVolumetricLightmapImport: Imported Volumetric Lightmap in 0.006s
+[2020.04.04-23.49.13:328][510]LogVolumetricLightmapImport:      Indirection Texture 16x16x16 = 0.0Mb
+[2020.04.04-23.49.13:328][510]LogVolumetricLightmapImport:      BrickData 50x5x5 = 0.0Mb
+[2020.04.04-23.49.13:328][510]LogVolumetricLightmapImport:      Bricks at Level
+[2020.04.04-23.49.13:329][510]LogVolumetricLightmapImport:          0: 10.0% covering 100.0% of volume
+[2020.04.04-23.49.13:329][510]LogVolumetricLightmapImport:          1: 10.0% covering 1.6% of volume
+[2020.04.04-23.49.13:329][510]LogVolumetricLightmapImport:          2: 80.0% covering 0.2% of volume
+[2020.04.04-23.49.13:395][510]LogTexture: Display: Building textures: SkyOcclusion0_1 (AutoDXT, 512X256)
+[2020.04.04-23.49.13:395][510]LogTexture: Display: Building textures: HQ_Lightmap0_1 (AutoDXT, 512X512)
+[2020.04.04-23.49.13:395][510]LogTexture: Display: Building textures: LQ_Lightmap_0_1 (DXT1, 512X512)
+[2020.04.04-23.49.13:395][510]LogTexture: Display: Building textures: SkyOcclusion0_2 (AutoDXT, 256X128)
+[2020.04.04-23.49.13:395][510]LogTexture: Display: Building textures: HQ_Lightmap0_2 (AutoDXT, 256X256)
+[2020.04.04-23.49.13:395][510]LogTexture: Display: Building textures: LQ_Lightmap_0_2 (DXT1, 256X256)
+[2020.04.04-23.49.13:395][510]LogTexture: Display: Building textures: SkyOcclusion1_3 (AutoDXT, 64X32)
+[2020.04.04-23.49.13:395][510]LogTexture: Display: Building textures: HQ_Lightmap1_3 (AutoDXT, 64X64)
+[2020.04.04-23.49.13:395][510]LogTexture: Display: Building textures: LQ_Lightmap_1_3 (DXT1, 64X64)
+[2020.04.04-23.49.13:395][510]LogTexture: Display: Building textures: ShadowMapTexture2D_2 (G8, 32X32)
+[2020.04.04-23.49.13:395][510]LogTexture: Display: Building textures: ShadowMapTexture2D_1 (BGRA8, 64X128)
+[2020.04.04-23.49.13:396][510]LogTexture: Display: Building textures: ShadowMapTexture2D_0 (BGRA8, 512X128)
+[2020.04.04-23.49.13:412][510]LogStaticLightingSystem: Building_Escape_BuiltData storing lightmap data for 10 meshes in 4 LightmapResourceClusters (2.5 Meshes per cluster).
+[2020.04.04-23.49.13:440][510]Lightmass on DESKTOP-7JGG8F1: 816 ms total, 71 ms importing, 4 ms setup, 388 ms photons, 322 ms processing, 0 ms extra exporting [39/39 mappings]. Threads: 2.09 sec total, 582 ms processing.
+[2020.04.04-23.49.13:451][510]LogUObjectHash: Compacting FUObjectHashTables data took   2.12ms
+[2020.04.04-23.49.13:459][510]LogStaticLightingSystem: Illumination: 9.53 sec (41 ms encoding lightmaps, 8 ms encoding shadowmaps)
+[2020.04.04-23.49.13:459][510]LogStaticLightingSystem: Lightmap texture memory:  0.8 MB (0.7 MB streaming, 0.2 MB non-streaming), 6 textures
+[2020.04.04-23.49.13:459][510]LogStaticLightingSystem: Shadowmap texture memory: 0.4 MB (0.3 MB streaming, 0.0 MB non-streaming), 3 textures
+[2020.04.04-23.49.13:986][510]DumpUnbuiltLightIteractions
+[2020.04.04-23.49.13:986][510]Lights with unbuilt interactions: 0
+[2020.04.04-23.49.13:986][510]
+[2020.04.04-23.49.13:986][510]Primitives with unbuilt interactions: 0
+[2020.04.04-23.49.14:041][511]Cmd: MAP CHECK NOTIFYRESULTS
+[2020.04.04-23.49.14:041][511]MapCheck: New page: Building_Escape - Apr 4, 2020, 1:49:14 PM
+[2020.04.04-23.49.14:042][511]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.362ms to complete.
+[2020.04.04-23.49.21:065][352]Candidate modules for hot reload:
+[2020.04.04-23.49.21:065][352]  BuildingEscape
+[2020.04.04-23.49.21:065][352]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.22/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=BuildingEscape,2257 Win64 Development -TargetType=Editor -Project="C:/Source/Udemy/Unreal/Section4/BuildingEscape/BuildingEscape/BuildingEscape.uproject" "C:/Source/Udemy/Unreal/Section4/BuildingEscape/BuildingEscape/BuildingEscape.uproject"  -IgnoreJunk]
+[2020.04.04-23.49.21:068][352]Warning: Starting HotReload took  0.0s.
+[2020.04.04-23.49.27:074][ 70]CompilerResultsLog: New page: Compilation - Apr 4, 2020, 1:49:27 PM
+[2020.04.04-23.49.27:074][ 70]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Source\Udemy\Unreal\Section4\BuildingEscape).
+[2020.04.04-23.49.27:074][ 70]CompilerResultsLog: Parsing headers for BuildingEscapeEditor
+[2020.04.04-23.49.27:074][ 70]CompilerResultsLog:   Running UnrealHeaderTool "C:\Source\Udemy\Unreal\Section4\BuildingEscape\BuildingEscape\BuildingEscape.uproject" "C:\Source\Udemy\Unreal\Section4\BuildingEscape\BuildingEscape\Intermediate\Build\Win64\BuildingEscapeEditor\Development\BuildingEscapeEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2020.04.04-23.49.27:075][ 70]CompilerResultsLog: Reflection code generated for BuildingEscapeEditor in 4.2261905 seconds
+[2020.04.04-23.49.27:075][ 70]CompilerResultsLog: Using Visual Studio 2019 14.24.28314 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.24.28314) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2020.04.04-23.49.27:075][ 70]CompilerResultsLog: Building 4 actions with 8 processes...
+[2020.04.04-23.49.27:075][ 70]CompilerResultsLog:   [1/4] Grabber.cpp
+[2020.04.04-23.49.27:075][ 70]CompilerResultsLog:   [2/4] UE4Editor-BuildingEscape-2257.lib
+[2020.04.04-23.49.27:075][ 70]CompilerResultsLog:      Creating library C:\Source\Udemy\Unreal\Section4\BuildingEscape\BuildingEscape\Intermediate\Build\Win64\UE4Editor\Development\BuildingEscape\UE4Editor-BuildingEscape-2257.lib and object C:\Source\Udemy\Unreal\Section4\BuildingEscape\BuildingEscape\Intermediate\Build\Win64\UE4Editor\Development\BuildingEscape\UE4Editor-BuildingEscape-2257.exp
+[2020.04.04-23.49.27:075][ 70]CompilerResultsLog:   [3/4] UE4Editor-BuildingEscape-2257.dll
+[2020.04.04-23.49.27:076][ 70]CompilerResultsLog:      Creating library C:\Source\Udemy\Unreal\Section4\BuildingEscape\BuildingEscape\Intermediate\Build\Win64\UE4Editor\Development\BuildingEscape\UE4Editor-BuildingEscape-2257.suppressed.lib and object C:\Source\Udemy\Unreal\Section4\BuildingEscape\BuildingEscape\Intermediate\Build\Win64\UE4Editor\Development\BuildingEscape\UE4Editor-BuildingEscape-2257.suppressed.exp
+[2020.04.04-23.49.27:076][ 70]CompilerResultsLog:   [4/4] BuildingEscapeEditor.target
+[2020.04.04-23.49.27:076][ 70]CompilerResultsLog: Total time in Parallel executor: 1.03 seconds
+[2020.04.04-23.49.27:076][ 70]CompilerResultsLog: Total execution time: 5.92 seconds
+[2020.04.04-23.49.27:076][ 70]LogMainFrame: MainFrame: Module compiling took 6.013 seconds
+[2020.04.04-23.49.27:103][ 70]LogUObjectHash: Compacting FUObjectHashTables data took   1.39ms
+[2020.04.04-23.49.27:103][ 70]LogBlueprintActionDatabase: Requesting refresh due to module change: BuildingEscape (unloaded)
+[2020.04.04-23.49.27:816][ 70]LogBlueprintActionDatabase: Requesting refresh due to module change: BuildingEscape (loaded)
+[2020.04.04-23.49.27:817][ 70]LogContentBrowser: Native class hierarchy updated for 'BuildingEscape' in 0.0003 seconds. Added 4 classes and 2 folders.
+[2020.04.04-23.49.27:820][ 70]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2020.04.04-23.49.27:869][ 70]LogUObjectHash: Compacting FUObjectHashTables data took   1.15ms
+[2020.04.04-23.49.27:869][ 70]LogBlueprintActionDatabase: Requesting refresh due to hot reload
+[2020.04.04-23.49.27:880][ 70]LogContentBrowser: Native class hierarchy populated in 0.0063 seconds. Added 2737 classes and 663 folders.
+[2020.04.04-23.49.27:880][ 70]Display: HotReload took  6.8s.
+[2020.04.04-23.49.30:131][317]Candidate modules for hot reload:
+[2020.04.04-23.49.30:131][317]  BuildingEscape
+[2020.04.04-23.49.30:131][317]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.22/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=BuildingEscape,5227 Win64 Development -TargetType=Editor -Project="C:/Source/Udemy/Unreal/Section4/BuildingEscape/BuildingEscape/BuildingEscape.uproject" "C:/Source/Udemy/Unreal/Section4/BuildingEscape/BuildingEscape/BuildingEscape.uproject"  -IgnoreJunk]
+[2020.04.04-23.49.30:133][317]Warning: Starting HotReload took  0.0s.
+[2020.04.04-23.49.35:647][976]CompilerResultsLog: New page: Compilation - Apr 4, 2020, 1:49:35 PM
+[2020.04.04-23.49.35:647][976]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Source\Udemy\Unreal\Section4\BuildingEscape).
+[2020.04.04-23.49.35:648][976]CompilerResultsLog: Parsing headers for BuildingEscapeEditor
+[2020.04.04-23.49.35:648][976]CompilerResultsLog:   Running UnrealHeaderTool "C:\Source\Udemy\Unreal\Section4\BuildingEscape\BuildingEscape\BuildingEscape.uproject" "C:\Source\Udemy\Unreal\Section4\BuildingEscape\BuildingEscape\Intermediate\Build\Win64\BuildingEscapeEditor\Development\BuildingEscapeEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2020.04.04-23.49.35:648][976]CompilerResultsLog: Reflection code generated for BuildingEscapeEditor in 4.2287159 seconds
+[2020.04.04-23.49.35:648][976]CompilerResultsLog: Using Visual Studio 2019 14.24.28314 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.24.28314) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2020.04.04-23.49.35:648][976]CompilerResultsLog: Building 3 actions with 8 processes...
+[2020.04.04-23.49.35:648][976]CompilerResultsLog:   [1/3] UE4Editor-BuildingEscape-5227.lib
+[2020.04.04-23.49.35:648][976]CompilerResultsLog:      Creating library C:\Source\Udemy\Unreal\Section4\BuildingEscape\BuildingEscape\Intermediate\Build\Win64\UE4Editor\Development\BuildingEscape\UE4Editor-BuildingEscape-5227.lib and object C:\Source\Udemy\Unreal\Section4\BuildingEscape\BuildingEscape\Intermediate\Build\Win64\UE4Editor\Development\BuildingEscape\UE4Editor-BuildingEscape-5227.exp
+[2020.04.04-23.49.35:649][976]CompilerResultsLog:   [2/3] UE4Editor-BuildingEscape-5227.dll
+[2020.04.04-23.49.35:649][976]CompilerResultsLog:      Creating library C:\Source\Udemy\Unreal\Section4\BuildingEscape\BuildingEscape\Intermediate\Build\Win64\UE4Editor\Development\BuildingEscape\UE4Editor-BuildingEscape-5227.suppressed.lib and object C:\Source\Udemy\Unreal\Section4\BuildingEscape\BuildingEscape\Intermediate\Build\Win64\UE4Editor\Development\BuildingEscape\UE4Editor-BuildingEscape-5227.suppressed.exp
+[2020.04.04-23.49.35:649][976]CompilerResultsLog:   [3/3] BuildingEscapeEditor.target
+[2020.04.04-23.49.35:649][976]CompilerResultsLog: Total time in Parallel executor: 0.54 seconds
+[2020.04.04-23.49.35:649][976]CompilerResultsLog: Total execution time: 5.43 seconds
+[2020.04.04-23.49.35:649][976]LogMainFrame: MainFrame: Module compiling took 5.521 seconds
+[2020.04.04-23.49.35:699][976]LogUObjectHash: Compacting FUObjectHashTables data took   2.72ms
+[2020.04.04-23.49.35:699][976]LogBlueprintActionDatabase: Requesting refresh due to module change: BuildingEscape (unloaded)
+[2020.04.04-23.49.36:205][976]LogBlueprintActionDatabase: Requesting refresh due to module change: BuildingEscape (loaded)
+[2020.04.04-23.49.36:205][976]LogContentBrowser: Native class hierarchy updated for 'BuildingEscape' in 0.0003 seconds. Added 4 classes and 2 folders.
+[2020.04.04-23.49.36:208][976]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2020.04.04-23.49.36:275][976]LogUObjectHash: Compacting FUObjectHashTables data took   2.06ms
+[2020.04.04-23.49.36:275][976]LogBlueprintActionDatabase: Requesting refresh due to hot reload
+[2020.04.04-23.49.36:286][976]LogContentBrowser: Native class hierarchy populated in 0.0062 seconds. Added 2737 classes and 663 folders.
+[2020.04.04-23.49.36:286][976]Display: HotReload took  6.2s.
+[2020.04.04-23.49.38:067][167]LogTemp: Repeating last play command: Selected Viewport
+[2020.04.04-23.49.38:078][167]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Levels/Building_Escape.Building_Escape:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Levels/Building_Escape.Building_Escape:PersistentLevel.Building_Escape' with GeneratedClass '/Game/StarterContent/Maps/Levels/Building_Escape.Building_Escape_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Levels/Building_Escape.Building_Escape:PersistentLevel.Building_Escape'
+[2020.04.04-23.49.38:078][167]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.04.04-23.49.38:078][167]PIE: New page: PIE session: Building_Escape (Apr 4, 2020, 1:49:38 PM)
+[2020.04.04-23.49.38:079][167]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/Levels/UEDPIE_0_Building_Escape
+[2020.04.04-23.49.38:085][167]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006444s)
+[2020.04.04-23.49.38:086][167]LogAIModule: Creating AISystem for world Building_Escape
+[2020.04.04-23.49.38:086][167]LogPlayLevel: PIE: World Init took: (0.000627s)
+[2020.04.04-23.49.38:086][167]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Levels/Building_Escape.Building_Escape to /Game/StarterContent/Maps/Levels/UEDPIE_0_Building_Escape.Building_Escape (0.007421s)
+[2020.04.04-23.49.38:135][167]LogUObjectHash: Compacting FUObjectHashTables data took   2.63ms
+[2020.04.04-23.49.38:149][167]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2020.04.04-23.49.38:157][167]LogInit: FAudioDevice initialized.
+[2020.04.04-23.49.38:182][167]LogLoad: Game class is 'MyBuildingEscapeGameModeBase_BP_C'
+[2020.04.04-23.49.38:184][167]LogWorld: Bringing World /Game/StarterContent/Maps/Levels/UEDPIE_0_Building_Escape.Building_Escape up for play (max tick rate 0) at 2020.04.04-18.49.38
+[2020.04.04-23.49.38:184][167]LogWorld: Bringing up level for play took: 0.000988
+[2020.04.04-23.49.38:197][167]LogTemp: Warning: BP_Sky_Sphere_C_2 position in world is: X=0.000 Y=0.000 Z=0.000
+[2020.04.04-23.49.38:197][167]PIE: Play in editor start time for /Game/StarterContent/Maps/Levels/UEDPIE_0_Building_Escape -0.759
+[2020.04.04-23.49.38:197][167]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Levels/Building_Escape.Building_Escape:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Levels/Building_Escape.Building_Escape:PersistentLevel.Building_Escape' with GeneratedClass '/Game/StarterContent/Maps/Levels/Building_Escape.Building_Escape_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Levels/Building_Escape.Building_Escape:PersistentLevel.Building_Escape'
+[2020.04.04-23.49.43:794][837]LogTemp: Warning: Line trace has hit: Cylinder_2
+[2020.04.04-23.49.48:512][403]LogTemp: Warning: Line trace has hit: Cone_5
+[2020.04.04-23.50.28:782][234]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2020.04.04-23.50.29:921][367]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Levels/Building_Escape.Building_Escape:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Levels/Building_Escape.Building_Escape:PersistentLevel.Building_Escape' with GeneratedClass '/Game/StarterContent/Maps/Levels/Building_Escape.Building_Escape_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Levels/Building_Escape.Building_Escape:PersistentLevel.Building_Escape'
+[2020.04.04-23.50.29:921][367]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.04.04-23.50.29:948][367]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.04.04-23.50.29:948][367]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Levels/Building_Escape.Building_Escape:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Levels/Building_Escape.Building_Escape:PersistentLevel.Building_Escape' with GeneratedClass '/Game/StarterContent/Maps/Levels/Building_Escape.Building_Escape_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Levels/Building_Escape.Building_Escape:PersistentLevel.Building_Escape'
+[2020.04.04-23.50.29:978][367]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.04.04-23.50.29:982][367]LogUObjectHash: Compacting FUObjectHashTables data took   2.32ms
+[2020.04.04-23.50.30:021][371]LogPlayLevel: Display: Destroying online subsystem :Context_16
+[2020.04.04-23.53.46:597][265]LogUObjectHash: Compacting FUObjectHashTables data took   0.79ms
+[2020.04.04-23.53.46:756][265]LogSavePackage: Moving '../../../../../../Source/Udemy/Unreal/Section4/BuildingEscape/BuildingEscape/Saved/Building_Escape0F1DE2514DDBB68CCE2294A27E9CFBBC.tmp' to '../../../../../../Source/Udemy/Unreal/Section4/BuildingEscape/BuildingEscape/Content/StarterContent/Maps/Levels/Building_Escape.umap'
+[2020.04.04-23.53.46:796][265]LogSavePackage: Moving '../../../../../../Source/Udemy/Unreal/Section4/BuildingEscape/BuildingEscape/Saved/Building_Escape_BuiltDataEE7761EC4ECE2FD03A61BEB1ADEB9D34.tmp' to '../../../../../../Source/Udemy/Unreal/Section4/BuildingEscape/BuildingEscape/Content/StarterContent/Maps/Levels/Building_Escape_BuiltData.uasset'
+[2020.04.04-23.53.47:927][398]Candidate modules for hot reload:
+[2020.04.04-23.53.47:928][398]  BuildingEscape
+[2020.04.04-23.53.47:928][398]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.22/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=BuildingEscape,3248 Win64 Development -TargetType=Editor -Project="C:/Source/Udemy/Unreal/Section4/BuildingEscape/BuildingEscape/BuildingEscape.uproject" "C:/Source/Udemy/Unreal/Section4/BuildingEscape/BuildingEscape/BuildingEscape.uproject"  -IgnoreJunk]
+[2020.04.04-23.53.47:930][398]Warning: Starting HotReload took  0.0s.
+[2020.04.04-23.54.06:864][665]CompilerResultsLog: New page: Compilation - Apr 4, 2020, 1:54:06 PM
+[2020.04.04-23.54.06:864][665]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Source\Udemy\Unreal\Section4\BuildingEscape).
+[2020.04.04-23.54.06:864][665]CompilerResultsLog: Creating makefile for BuildingEscapeEditor (no existing makefile)
+[2020.04.04-23.54.06:864][665]CompilerResultsLog: Parsing headers for BuildingEscapeEditor
+[2020.04.04-23.54.06:864][665]CompilerResultsLog:   Running UnrealHeaderTool "C:\Source\Udemy\Unreal\Section4\BuildingEscape\BuildingEscape\BuildingEscape.uproject" "C:\Source\Udemy\Unreal\Section4\BuildingEscape\BuildingEscape\Intermediate\Build\Win64\BuildingEscapeEditor\Development\BuildingEscapeEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2020.04.04-23.54.06:864][665]CompilerResultsLog: Reflection code generated for BuildingEscapeEditor in 4.1972045 seconds
+[2020.04.04-23.54.06:864][665]CompilerResultsLog: Using Visual Studio 2019 14.24.28314 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.24.28314) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2020.04.04-23.54.06:865][665]CompilerResultsLog: Building 15 actions with 8 processes...
+[2020.04.04-23.54.06:865][665]CompilerResultsLog:   [1/15] Default.rc2
+[2020.04.04-23.54.06:865][665]CompilerResultsLog:   [2/15] SharedPCH.Engine.cpp
+[2020.04.04-23.54.06:865][665]CompilerResultsLog:   [3/15] OpenDoor.cpp
+[2020.04.04-23.54.06:865][665]CompilerResultsLog:   [4/15] BuildingEscape.init.gen.cpp
+[2020.04.04-23.54.06:865][665]CompilerResultsLog:   [5/15] WorldPosition.cpp
+[2020.04.04-23.54.06:865][665]CompilerResultsLog:   [6/15] BuildingEscapeGameModeBase.cpp
+[2020.04.04-23.54.06:865][665]CompilerResultsLog:   [7/15] Grabber.gen.cpp
+[2020.04.04-23.54.06:865][665]CompilerResultsLog:   [8/15] OpenDoor.gen.cpp
+[2020.04.04-23.54.06:865][665]CompilerResultsLog:   [9/15] BuildingEscapeGameModeBase.gen.cpp
+[2020.04.04-23.54.06:865][665]CompilerResultsLog:   [10/15] Grabber.cpp
+[2020.04.04-23.54.06:865][665]CompilerResultsLog:   [11/15] BuildingEscape.cpp
+[2020.04.04-23.54.06:865][665]CompilerResultsLog:   [12/15] WorldPosition.gen.cpp
+[2020.04.04-23.54.06:865][665]CompilerResultsLog:   [13/15] UE4Editor-BuildingEscape-3248.lib
+[2020.04.04-23.54.06:865][665]CompilerResultsLog:      Creating library C:\Source\Udemy\Unreal\Section4\BuildingEscape\BuildingEscape\Intermediate\Build\Win64\UE4Editor\Development\BuildingEscape\UE4Editor-BuildingEscape-3248.lib and object C:\Source\Udemy\Unreal\Section4\BuildingEscape\BuildingEscape\Intermediate\Build\Win64\UE4Editor\Development\BuildingEscape\UE4Editor-BuildingEscape-3248.exp
+[2020.04.04-23.54.06:866][665]CompilerResultsLog:   [14/15] UE4Editor-BuildingEscape-3248.dll
+[2020.04.04-23.54.06:866][665]CompilerResultsLog:      Creating library C:\Source\Udemy\Unreal\Section4\BuildingEscape\BuildingEscape\Intermediate\Build\Win64\UE4Editor\Development\BuildingEscape\UE4Editor-BuildingEscape-3248.suppressed.lib and object C:\Source\Udemy\Unreal\Section4\BuildingEscape\BuildingEscape\Intermediate\Build\Win64\UE4Editor\Development\BuildingEscape\UE4Editor-BuildingEscape-3248.suppressed.exp
+[2020.04.04-23.54.06:866][665]CompilerResultsLog:   [15/15] BuildingEscapeEditor.target
+[2020.04.04-23.54.06:866][665]CompilerResultsLog: Total time in Parallel executor: 13.21 seconds
+[2020.04.04-23.54.06:866][665]CompilerResultsLog: Total execution time: 18.85 seconds
+[2020.04.04-23.54.06:866][665]LogMainFrame: MainFrame: Module compiling took 18.941 seconds
+[2020.04.04-23.54.06:891][665]LogUObjectHash: Compacting FUObjectHashTables data took   1.67ms
+[2020.04.04-23.54.06:891][665]LogBlueprintActionDatabase: Requesting refresh due to module change: BuildingEscape (unloaded)
+[2020.04.04-23.54.07:629][665]LogBlueprintActionDatabase: Requesting refresh due to module change: BuildingEscape (loaded)
+[2020.04.04-23.54.07:629][665]LogContentBrowser: Native class hierarchy updated for 'BuildingEscape' in 0.0003 seconds. Added 4 classes and 2 folders.
+[2020.04.04-23.54.07:633][665]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2020.04.04-23.54.07:685][665]LogUObjectHash: Compacting FUObjectHashTables data took   1.18ms
+[2020.04.04-23.54.07:685][665]LogBlueprintActionDatabase: Requesting refresh due to hot reload
+[2020.04.04-23.54.07:696][665]LogContentBrowser: Native class hierarchy populated in 0.0062 seconds. Added 2737 classes and 663 folders.
+[2020.04.04-23.54.07:696][665]Display: HotReload took 19.8s.
+[2020.04.04-23.54.10:417][969]Candidate modules for hot reload:
+[2020.04.04-23.54.10:417][969]  BuildingEscape
+[2020.04.04-23.54.10:417][969]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.22/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=BuildingEscape,3518 Win64 Development -TargetType=Editor -Project="C:/Source/Udemy/Unreal/Section4/BuildingEscape/BuildingEscape/BuildingEscape.uproject" "C:/Source/Udemy/Unreal/Section4/BuildingEscape/BuildingEscape/BuildingEscape.uproject"  -IgnoreJunk]
+[2020.04.04-23.54.10:419][969]Warning: Starting HotReload took  0.0s.
+[2020.04.04-23.54.15:855][618]CompilerResultsLog: New page: Compilation - Apr 4, 2020, 1:54:15 PM
+[2020.04.04-23.54.15:855][618]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Source\Udemy\Unreal\Section4\BuildingEscape).
+[2020.04.04-23.54.15:856][618]CompilerResultsLog: Parsing headers for BuildingEscapeEditor
+[2020.04.04-23.54.15:856][618]CompilerResultsLog:   Running UnrealHeaderTool "C:\Source\Udemy\Unreal\Section4\BuildingEscape\BuildingEscape\BuildingEscape.uproject" "C:\Source\Udemy\Unreal\Section4\BuildingEscape\BuildingEscape\Intermediate\Build\Win64\BuildingEscapeEditor\Development\BuildingEscapeEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2020.04.04-23.54.15:856][618]CompilerResultsLog: Reflection code generated for BuildingEscapeEditor in 4.1864511 seconds
+[2020.04.04-23.54.15:856][618]CompilerResultsLog: Using Visual Studio 2019 14.24.28314 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.24.28314) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2020.04.04-23.54.15:856][618]CompilerResultsLog: Building 3 actions with 8 processes...
+[2020.04.04-23.54.15:856][618]CompilerResultsLog:   [1/3] UE4Editor-BuildingEscape-3518.lib
+[2020.04.04-23.54.15:856][618]CompilerResultsLog:      Creating library C:\Source\Udemy\Unreal\Section4\BuildingEscape\BuildingEscape\Intermediate\Build\Win64\UE4Editor\Development\BuildingEscape\UE4Editor-BuildingEscape-3518.lib and object C:\Source\Udemy\Unreal\Section4\BuildingEscape\BuildingEscape\Intermediate\Build\Win64\UE4Editor\Development\BuildingEscape\UE4Editor-BuildingEscape-3518.exp
+[2020.04.04-23.54.15:857][618]CompilerResultsLog:   [2/3] UE4Editor-BuildingEscape-3518.dll
+[2020.04.04-23.54.15:857][618]CompilerResultsLog:      Creating library C:\Source\Udemy\Unreal\Section4\BuildingEscape\BuildingEscape\Intermediate\Build\Win64\UE4Editor\Development\BuildingEscape\UE4Editor-BuildingEscape-3518.suppressed.lib and object C:\Source\Udemy\Unreal\Section4\BuildingEscape\BuildingEscape\Intermediate\Build\Win64\UE4Editor\Development\BuildingEscape\UE4Editor-BuildingEscape-3518.suppressed.exp
+[2020.04.04-23.54.15:857][618]CompilerResultsLog:   [3/3] BuildingEscapeEditor.target
+[2020.04.04-23.54.15:857][618]CompilerResultsLog: Total time in Parallel executor: 0.54 seconds
+[2020.04.04-23.54.15:857][618]CompilerResultsLog: Total execution time: 5.35 seconds
+[2020.04.04-23.54.15:857][618]LogMainFrame: MainFrame: Module compiling took 5.442 seconds
+[2020.04.04-23.54.15:907][618]LogUObjectHash: Compacting FUObjectHashTables data took   2.73ms
+[2020.04.04-23.54.15:908][618]LogBlueprintActionDatabase: Requesting refresh due to module change: BuildingEscape (unloaded)
+[2020.04.04-23.54.16:418][618]LogBlueprintActionDatabase: Requesting refresh due to module change: BuildingEscape (loaded)
+[2020.04.04-23.54.16:419][618]LogContentBrowser: Native class hierarchy updated for 'BuildingEscape' in 0.0003 seconds. Added 4 classes and 2 folders.
+[2020.04.04-23.54.16:422][618]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2020.04.04-23.54.16:489][618]LogUObjectHash: Compacting FUObjectHashTables data took   2.05ms
+[2020.04.04-23.54.16:490][618]LogBlueprintActionDatabase: Requesting refresh due to hot reload
+[2020.04.04-23.54.16:501][618]LogContentBrowser: Native class hierarchy populated in 0.0061 seconds. Added 2737 classes and 663 folders.
+[2020.04.04-23.54.16:501][618]Display: HotReload took  6.1s.
+[2020.04.04-23.54.18:439][829]LogTemp: Repeating last play command: Selected Viewport
+[2020.04.04-23.54.18:450][829]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Levels/Building_Escape.Building_Escape:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Levels/Building_Escape.Building_Escape:PersistentLevel.Building_Escape' with GeneratedClass '/Game/StarterContent/Maps/Levels/Building_Escape.Building_Escape_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Levels/Building_Escape.Building_Escape:PersistentLevel.Building_Escape'
+[2020.04.04-23.54.18:451][829]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.04.04-23.54.18:451][829]PIE: New page: PIE session: Building_Escape (Apr 4, 2020, 1:54:18 PM)
+[2020.04.04-23.54.18:451][829]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/Levels/UEDPIE_0_Building_Escape
+[2020.04.04-23.54.18:457][829]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006417s)
+[2020.04.04-23.54.18:458][829]LogAIModule: Creating AISystem for world Building_Escape
+[2020.04.04-23.54.18:458][829]LogPlayLevel: PIE: World Init took: (0.000516s)
+[2020.04.04-23.54.18:458][829]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Levels/Building_Escape.Building_Escape to /Game/StarterContent/Maps/Levels/UEDPIE_0_Building_Escape.Building_Escape (0.007262s)
+[2020.04.04-23.54.18:508][829]LogUObjectHash: Compacting FUObjectHashTables data took   2.70ms
+[2020.04.04-23.54.18:521][829]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2020.04.04-23.54.18:529][829]LogInit: FAudioDevice initialized.
+[2020.04.04-23.54.18:556][829]LogLoad: Game class is 'MyBuildingEscapeGameModeBase_BP_C'
+[2020.04.04-23.54.18:558][829]LogWorld: Bringing World /Game/StarterContent/Maps/Levels/UEDPIE_0_Building_Escape.Building_Escape up for play (max tick rate 0) at 2020.04.04-18.54.18
+[2020.04.04-23.54.18:558][829]LogWorld: Bringing up level for play took: 0.000896
+[2020.04.04-23.54.18:570][829]LogTemp: Warning: BP_Sky_Sphere_C_2 position in world is: X=0.000 Y=0.000 Z=0.000
+[2020.04.04-23.54.18:571][829]PIE: Play in editor start time for /Game/StarterContent/Maps/Levels/UEDPIE_0_Building_Escape -0.384
+[2020.04.04-23.54.18:571][829]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Levels/Building_Escape.Building_Escape:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Levels/Building_Escape.Building_Escape:PersistentLevel.Building_Escape' with GeneratedClass '/Game/StarterContent/Maps/Levels/Building_Escape.Building_Escape_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Levels/Building_Escape.Building_Escape:PersistentLevel.Building_Escape'
+[2020.04.04-23.54.21:553][185]LogTemp: Warning: Line trace has hit: Cylinder_2
+[2020.04.04-23.54.25:335][639]LogTemp: Warning: Line trace has hit: Cone_5
+[2020.04.04-23.54.31:244][348]LogTemp: Warning: Line trace has hit: Cone_5
+[2020.04.04-23.54.36:035][923]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2020.04.04-23.54.36:919][ 29]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Levels/Building_Escape.Building_Escape:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Levels/Building_Escape.Building_Escape:PersistentLevel.Building_Escape' with GeneratedClass '/Game/StarterContent/Maps/Levels/Building_Escape.Building_Escape_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Levels/Building_Escape.Building_Escape:PersistentLevel.Building_Escape'
+[2020.04.04-23.54.36:919][ 29]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.04.04-23.54.36:949][ 29]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.04.04-23.54.36:949][ 29]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Levels/Building_Escape.Building_Escape:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Levels/Building_Escape.Building_Escape:PersistentLevel.Building_Escape' with GeneratedClass '/Game/StarterContent/Maps/Levels/Building_Escape.Building_Escape_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Levels/Building_Escape.Building_Escape:PersistentLevel.Building_Escape'
+[2020.04.04-23.54.36:981][ 29]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.04.04-23.54.36:994][ 29]LogUObjectHash: Compacting FUObjectHashTables data took   2.34ms
+[2020.04.04-23.54.37:023][ 32]LogPlayLevel: Display: Destroying online subsystem :Context_17
+[2020.04.05-00.00.38:477][215]Candidate modules for hot reload:
+[2020.04.05-00.00.38:477][215]  BuildingEscape
+[2020.04.05-00.00.38:477][215]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.22/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=BuildingEscape,1150 Win64 Development -TargetType=Editor -Project="C:/Source/Udemy/Unreal/Section4/BuildingEscape/BuildingEscape/BuildingEscape.uproject" "C:/Source/Udemy/Unreal/Section4/BuildingEscape/BuildingEscape/BuildingEscape.uproject"  -IgnoreJunk]
+[2020.04.05-00.00.38:479][215]Warning: Starting HotReload took  0.0s.
+[2020.04.05-00.00.45:167][ 17]CompilerResultsLog: New page: Compilation - Apr 4, 2020, 2:00:45 PM
+[2020.04.05-00.00.45:167][ 17]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Source\Udemy\Unreal\Section4\BuildingEscape).
+[2020.04.05-00.00.45:167][ 17]CompilerResultsLog: Creating makefile for BuildingEscapeEditor (ini files are newer than makefile)
+[2020.04.05-00.00.45:167][ 17]CompilerResultsLog: Parsing headers for BuildingEscapeEditor
+[2020.04.05-00.00.45:167][ 17]CompilerResultsLog:   Running UnrealHeaderTool "C:\Source\Udemy\Unreal\Section4\BuildingEscape\BuildingEscape\BuildingEscape.uproject" "C:\Source\Udemy\Unreal\Section4\BuildingEscape\BuildingEscape\Intermediate\Build\Win64\BuildingEscapeEditor\Development\BuildingEscapeEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2020.04.05-00.00.45:168][ 17]CompilerResultsLog: Reflection code generated for BuildingEscapeEditor in 4.2540208 seconds
+[2020.04.05-00.00.45:168][ 17]CompilerResultsLog: Using Visual Studio 2019 14.24.28314 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.24.28314) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2020.04.05-00.00.45:168][ 17]CompilerResultsLog: Building 4 actions with 8 processes...
+[2020.04.05-00.00.45:168][ 17]CompilerResultsLog:   [1/4] Grabber.cpp
+[2020.04.05-00.00.45:168][ 17]CompilerResultsLog:   [2/4] UE4Editor-BuildingEscape-1150.lib
+[2020.04.05-00.00.45:168][ 17]CompilerResultsLog:      Creating library C:\Source\Udemy\Unreal\Section4\BuildingEscape\BuildingEscape\Intermediate\Build\Win64\UE4Editor\Development\BuildingEscape\UE4Editor-BuildingEscape-1150.lib and object C:\Source\Udemy\Unreal\Section4\BuildingEscape\BuildingEscape\Intermediate\Build\Win64\UE4Editor\Development\BuildingEscape\UE4Editor-BuildingEscape-1150.exp
+[2020.04.05-00.00.45:168][ 17]CompilerResultsLog:   [3/4] UE4Editor-BuildingEscape-1150.dll
+[2020.04.05-00.00.45:168][ 17]CompilerResultsLog:      Creating library C:\Source\Udemy\Unreal\Section4\BuildingEscape\BuildingEscape\Intermediate\Build\Win64\UE4Editor\Development\BuildingEscape\UE4Editor-BuildingEscape-1150.suppressed.lib and object C:\Source\Udemy\Unreal\Section4\BuildingEscape\BuildingEscape\Intermediate\Build\Win64\UE4Editor\Development\BuildingEscape\UE4Editor-BuildingEscape-1150.suppressed.exp
+[2020.04.05-00.00.45:169][ 17]CompilerResultsLog:   [4/4] BuildingEscapeEditor.target
+[2020.04.05-00.00.45:169][ 17]CompilerResultsLog: Total time in Parallel executor: 1.03 seconds
+[2020.04.05-00.00.45:169][ 17]CompilerResultsLog: Total execution time: 6.60 seconds
+[2020.04.05-00.00.45:169][ 17]LogMainFrame: MainFrame: Module compiling took 6.695 seconds
+[2020.04.05-00.00.45:196][ 17]LogUObjectHash: Compacting FUObjectHashTables data took   0.81ms
+[2020.04.05-00.00.45:196][ 17]LogBlueprintActionDatabase: Requesting refresh due to module change: BuildingEscape (unloaded)
+[2020.04.05-00.00.45:896][ 17]LogBlueprintActionDatabase: Requesting refresh due to module change: BuildingEscape (loaded)
+[2020.04.05-00.00.45:896][ 17]LogContentBrowser: Native class hierarchy updated for 'BuildingEscape' in 0.0003 seconds. Added 4 classes and 2 folders.
+[2020.04.05-00.00.45:900][ 17]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2020.04.05-00.00.45:950][ 17]LogUObjectHash: Compacting FUObjectHashTables data took   1.25ms
+[2020.04.05-00.00.45:950][ 17]LogBlueprintActionDatabase: Requesting refresh due to hot reload
+[2020.04.05-00.00.45:962][ 17]LogContentBrowser: Native class hierarchy populated in 0.0067 seconds. Added 2737 classes and 663 folders.
+[2020.04.05-00.00.45:962][ 17]Display: HotReload took  7.5s.
+[2020.04.05-00.00.47:547][184]Candidate modules for hot reload:
+[2020.04.05-00.00.47:547][184]  BuildingEscape
+[2020.04.05-00.00.47:547][184]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.22/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=BuildingEscape,4394 Win64 Development -TargetType=Editor -Project="C:/Source/Udemy/Unreal/Section4/BuildingEscape/BuildingEscape/BuildingEscape.uproject" "C:/Source/Udemy/Unreal/Section4/BuildingEscape/BuildingEscape/BuildingEscape.uproject"  -IgnoreJunk]
+[2020.04.05-00.00.47:550][184]Warning: Starting HotReload took  0.0s.
+[2020.04.05-00.00.53:063][842]CompilerResultsLog: New page: Compilation - Apr 4, 2020, 2:00:53 PM
+[2020.04.05-00.00.53:063][842]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Source\Udemy\Unreal\Section4\BuildingEscape).
+[2020.04.05-00.00.53:063][842]CompilerResultsLog: Parsing headers for BuildingEscapeEditor
+[2020.04.05-00.00.53:063][842]CompilerResultsLog:   Running UnrealHeaderTool "C:\Source\Udemy\Unreal\Section4\BuildingEscape\BuildingEscape\BuildingEscape.uproject" "C:\Source\Udemy\Unreal\Section4\BuildingEscape\BuildingEscape\Intermediate\Build\Win64\BuildingEscapeEditor\Development\BuildingEscapeEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2020.04.05-00.00.53:063][842]CompilerResultsLog: Reflection code generated for BuildingEscapeEditor in 4.2255511 seconds
+[2020.04.05-00.00.53:063][842]CompilerResultsLog: Using Visual Studio 2019 14.24.28314 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.24.28314) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2020.04.05-00.00.53:064][842]CompilerResultsLog: Building 3 actions with 8 processes...
+[2020.04.05-00.00.53:064][842]CompilerResultsLog:   [1/3] UE4Editor-BuildingEscape-4394.lib
+[2020.04.05-00.00.53:064][842]CompilerResultsLog:      Creating library C:\Source\Udemy\Unreal\Section4\BuildingEscape\BuildingEscape\Intermediate\Build\Win64\UE4Editor\Development\BuildingEscape\UE4Editor-BuildingEscape-4394.lib and object C:\Source\Udemy\Unreal\Section4\BuildingEscape\BuildingEscape\Intermediate\Build\Win64\UE4Editor\Development\BuildingEscape\UE4Editor-BuildingEscape-4394.exp
+[2020.04.05-00.00.53:064][842]CompilerResultsLog:   [2/3] UE4Editor-BuildingEscape-4394.dll
+[2020.04.05-00.00.53:064][842]CompilerResultsLog:      Creating library C:\Source\Udemy\Unreal\Section4\BuildingEscape\BuildingEscape\Intermediate\Build\Win64\UE4Editor\Development\BuildingEscape\UE4Editor-BuildingEscape-4394.suppressed.lib and object C:\Source\Udemy\Unreal\Section4\BuildingEscape\BuildingEscape\Intermediate\Build\Win64\UE4Editor\Development\BuildingEscape\UE4Editor-BuildingEscape-4394.suppressed.exp
+[2020.04.05-00.00.53:064][842]CompilerResultsLog:   [3/3] BuildingEscapeEditor.target
+[2020.04.05-00.00.53:064][842]CompilerResultsLog: Total time in Parallel executor: 0.55 seconds
+[2020.04.05-00.00.53:065][842]CompilerResultsLog: Total execution time: 5.43 seconds
+[2020.04.05-00.00.53:065][842]LogMainFrame: MainFrame: Module compiling took 5.519 seconds
+[2020.04.05-00.00.53:118][842]LogUObjectHash: Compacting FUObjectHashTables data took   2.72ms
+[2020.04.05-00.00.53:119][842]LogBlueprintActionDatabase: Requesting refresh due to module change: BuildingEscape (unloaded)
+[2020.04.05-00.00.53:642][842]LogBlueprintActionDatabase: Requesting refresh due to module change: BuildingEscape (loaded)
+[2020.04.05-00.00.53:642][842]LogContentBrowser: Native class hierarchy updated for 'BuildingEscape' in 0.0003 seconds. Added 4 classes and 2 folders.
+[2020.04.05-00.00.53:645][842]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2020.04.05-00.00.53:711][842]LogUObjectHash: Compacting FUObjectHashTables data took   2.05ms
+[2020.04.05-00.00.53:711][842]LogBlueprintActionDatabase: Requesting refresh due to hot reload
+[2020.04.05-00.00.53:722][842]LogContentBrowser: Native class hierarchy populated in 0.0063 seconds. Added 2737 classes and 663 folders.
+[2020.04.05-00.00.53:722][842]Display: HotReload took  6.2s.
+[2020.04.05-00.00.55:306][ 10]LogTemp: Repeating last play command: Selected Viewport
+[2020.04.05-00.00.55:317][ 10]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Levels/Building_Escape.Building_Escape:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Levels/Building_Escape.Building_Escape:PersistentLevel.Building_Escape' with GeneratedClass '/Game/StarterContent/Maps/Levels/Building_Escape.Building_Escape_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Levels/Building_Escape.Building_Escape:PersistentLevel.Building_Escape'
+[2020.04.05-00.00.55:318][ 10]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.04.05-00.00.55:318][ 10]PIE: New page: PIE session: Building_Escape (Apr 4, 2020, 2:00:55 PM)
+[2020.04.05-00.00.55:318][ 10]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/Levels/UEDPIE_0_Building_Escape
+[2020.04.05-00.00.55:325][ 10]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006799s)
+[2020.04.05-00.00.55:326][ 10]LogAIModule: Creating AISystem for world Building_Escape
+[2020.04.05-00.00.55:326][ 10]LogPlayLevel: PIE: World Init took: (0.000773s)
+[2020.04.05-00.00.55:326][ 10]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Levels/Building_Escape.Building_Escape to /Game/StarterContent/Maps/Levels/UEDPIE_0_Building_Escape.Building_Escape (0.007935s)
+[2020.04.05-00.00.55:375][ 10]LogUObjectHash: Compacting FUObjectHashTables data took   2.62ms
+[2020.04.05-00.00.55:389][ 10]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2020.04.05-00.00.55:397][ 10]LogInit: FAudioDevice initialized.
+[2020.04.05-00.00.55:424][ 10]LogLoad: Game class is 'MyBuildingEscapeGameModeBase_BP_C'
+[2020.04.05-00.00.55:426][ 10]LogWorld: Bringing World /Game/StarterContent/Maps/Levels/UEDPIE_0_Building_Escape.Building_Escape up for play (max tick rate 0) at 2020.04.04-19.00.55
+[2020.04.05-00.00.55:426][ 10]LogWorld: Bringing up level for play took: 0.001044
+[2020.04.05-00.00.55:438][ 10]LogTemp: Warning: BP_Sky_Sphere_C_2 position in world is: X=0.000 Y=0.000 Z=0.000
+[2020.04.05-00.00.55:439][ 10]PIE: Play in editor start time for /Game/StarterContent/Maps/Levels/UEDPIE_0_Building_Escape 0.483
+[2020.04.05-00.00.55:439][ 10]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Levels/Building_Escape.Building_Escape:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Levels/Building_Escape.Building_Escape:PersistentLevel.Building_Escape' with GeneratedClass '/Game/StarterContent/Maps/Levels/Building_Escape.Building_Escape_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Levels/Building_Escape.Building_Escape:PersistentLevel.Building_Escape'
+[2020.04.05-00.01.17:047][601]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2020.04.05-00.01.18:197][739]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Levels/Building_Escape.Building_Escape:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Levels/Building_Escape.Building_Escape:PersistentLevel.Building_Escape' with GeneratedClass '/Game/StarterContent/Maps/Levels/Building_Escape.Building_Escape_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Levels/Building_Escape.Building_Escape:PersistentLevel.Building_Escape'
+[2020.04.05-00.01.18:197][739]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.04.05-00.01.18:226][739]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.04.05-00.01.18:226][739]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Levels/Building_Escape.Building_Escape:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Levels/Building_Escape.Building_Escape:PersistentLevel.Building_Escape' with GeneratedClass '/Game/StarterContent/Maps/Levels/Building_Escape.Building_Escape_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Levels/Building_Escape.Building_Escape:PersistentLevel.Building_Escape'
+[2020.04.05-00.01.18:259][739]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.04.05-00.01.18:270][739]LogUObjectHash: Compacting FUObjectHashTables data took   2.31ms
+[2020.04.05-00.01.18:299][742]LogPlayLevel: Display: Destroying online subsystem :Context_18
