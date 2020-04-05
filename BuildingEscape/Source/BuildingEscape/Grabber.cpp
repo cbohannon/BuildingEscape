@@ -47,10 +47,13 @@ void UGrabber::Grab()
 {
 	FHitResult HitResult = GetFirstPhysicsBodyInReach();
 	UPrimitiveComponent* ComponentToGrab = HitResult.GetComponent();
+	AActor* ActorHit = HitResult.GetActor();
 
-	if (HitResult.GetActor())
+	if (ActorHit)
 	{
-		PhysicsHandle->GrabComponentAtLocation(ComponentToGrab, 
+		if (!PhysicsHandle) {return;}
+		PhysicsHandle->GrabComponentAtLocation(
+			ComponentToGrab, 
 			NAME_None, 
 			std::get<1>(PrepPlayerViewpoint())
 		);
@@ -59,6 +62,7 @@ void UGrabber::Grab()
 
 void UGrabber::Release()
 {
+	if (!PhysicsHandle) { return; }
 	PhysicsHandle->ReleaseComponent();
 }
 
@@ -67,6 +71,7 @@ void UGrabber::TickComponent(float DeltaTime, ELevelTick TickType, FActorCompone
 {
 	Super::TickComponent(DeltaTime, TickType, ThisTickFunction);
 
+	if (!PhysicsHandle) { return; }
 	if (PhysicsHandle->GrabbedComponent)
 	{
 		PhysicsHandle->SetTargetLocation(std::get<1>(PrepPlayerViewpoint()));
@@ -78,6 +83,7 @@ FHitResult UGrabber::GetFirstPhysicsBodyInReach() const
 	// Ray-cast out to a certain distance (player reach)
 	FHitResult Hit{};
 	FCollisionQueryParams TraceParams(FName(TEXT("")), false, GetOwner());
+	
 	GetWorld()->LineTraceSingleByObjectType(
 		OUT Hit,
 		std::get<0>(PrepPlayerViewpoint()),
